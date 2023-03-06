@@ -1,0 +1,152 @@
+#formulario {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#formulario form, label {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 700;
+}
+
+#formulario form label input {
+    padding: .5rem;
+}
+
+#formulario form button {
+    width: 20%;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: .3rem 0;
+    color: black;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#formulario input {
+    margin: 1rem 0;
+}
+
+#formulario button,
+.baixarBotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    margin: 2rem auto;
+    background-color: #FF914D;
+    background-image: url(images/bg01.png);
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#formulario input {
+    border: 1px solid #228B22;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+    #e-bookGratisFormulario label {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    
+    #formulario {
+        margin: 0;        
+    }
+
+    #e-bookGratisFormulario button {
+        font-size: 1.2rem !important;
+        height: 35px !important;
+    }
+ 
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+    #formulario form button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        margin: 1rem auto;
+    }
+    
+    #formulario form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #formulario #e-bookGratisFormulario label {
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        color: black;
+        font-size: 1.2rem;
+        margin: .5rem 0 0 0;
+    }
+
+    #formulario #e-bookGratisFormulario label input  {
+        width: 100%;
+        margin: .2rem 0 0 0;
+    }
+
+    #formulario #e-bookGratisFormulario label input::placeholder  {
+       padding: 0 0 0 .3rem;
+    }
+    
+
+    #formulario button {
+        padding: .5rem;
+        font-size: 1rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .baixarBotao {
+        width: 60%;
+        font-size: 1.5rem;
+        height: 60px;
+    }
+     
+}
+
+@media screen and (min-width: 1500px) {}
+
+@media screen and (min-width: 737px) {}
+
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+@media screen and (min-width: 737px) {}
+
+/* Laptop */
+@media screen and (min-width: 1201px) and (max-width: 1460px) {}
+
+/* Wide */
+@media screen and (min-width: 1201px) {}
+
+/* Narrow */
+@media screen and (min-width: 737px) and (max-width: 1200px) {}
+
+/* Narrower */
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+/*Mobile Menores*/
+@media screen and (min-width: 320px) and (max-width: 735px) {}
+
+/* Off-Canvas Sidebar */
+@media screen and (max-width: 1000px) {}

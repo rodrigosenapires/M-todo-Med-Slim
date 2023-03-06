@@ -1,0 +1,2021 @@
+@import url(rodape.css);
+@import url(cabecalho.css);
+@import url(recomendados.css);
+@import url(receitasInfos.css);
+@import url(mediterranea-vendas.css);
+@import url(imprimir.css);
+@import url(e-book-gratis.css);
+@import url(fontawesome-all.min.css);
+@import url(todas-receitas.css);
+@import url(anuncie.css);
+@import url(tabela-sumario.css);
+
+.arvoreLinksContainer div.displayDestop {
+    height: 60px;
+}
+
+.arvoreLinksContainer div.displayDestop i {
+    margin-bottom: .7rem;
+}
+
+#arvore .displayCel {
+    display: none;
+}
+
+.bodyIndex {
+    background-color: #228B22;    
+}
+
+#titleBar {
+    display: none;
+}
+
+#content.arvoreLinks {
+    background-color: #228B22;
+}
+
+#arvoreLinksWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FF914D;
+    border-radius: 16px;
+    padding: 1rem;   
+    margin-top: 22.5vh;
+}
+
+#arvoreLinksWrapper img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
+#arvoreLinksWrapper h1 {
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+#arvoreLinksWrapper h2 {
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+    color: #FFF;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.arvoreLinksContainer div p {
+    
+    font-weight: 700;
+    color: #FFF;
+}
+
+.arvoreLinksContainer div:last-child a {
+    margin-right: 1.4rem;
+}
+
+.arvoreLinksContainer div:first-child a {
+    margin-right: 2.7rem;
+}
+
+.arvoreLinksContainer div:nth-of-type(2) a {
+    margin-right: 1rem;
+} 
+
+.arvoreLinksContainer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #FFF;
+    border-radius: 24px;
+    padding: 1rem;
+    width: 400px;
+}
+
+.arvoreLinksContainer div a {
+    color: #FFF;
+    text-decoration: none;   
+}
+
+#arvore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arvoreLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#e-booksVenda {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;    
+}
+
+.pacoteMediterraneaContainer, #e-booksAvulso {
+    min-height: 65vh;
+    border-radius: 16px; 
+    padding: 1rem;
+    background-color: #FF914D;
+    margin: 1rem 0;
+}
+
+.pacoteMediterraneaContainer h2, #e-booksAvulso h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0 .5rem 0;
+    color: #FFF;  
+    line-height: 40px;
+}
+
+div#e-booksAvulso h2 {
+    margin: 2rem 0;
+}
+
+.pacoteMediterraneaContainer p, #e-booksAvulso p {
+    color: #FFF; 
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#pacoteMediterranea, .e-booksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;     
+    
+}
+
+.e-booksCard {
+    max-height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;      
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.e-booksCard span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: #228B22;
+}
+
+.pacoteMediterraneaContainer .preco {
+    font-size: 3rem;
+    color: #228B22;
+}
+
+.pacoteMediterraneaContainer .precoCheio {
+    color: red;
+    margin-top: 1rem;
+}
+
+.pacoteMediterraneaContainer a, #e-booksAvulso a {
+    width: 320px;    
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #228B22;
+    border-radius: 8px;
+    padding: 1rem;   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+div#e-booksAvulso a {
+    width: 200px;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.e-booksCard img {
+    width: 150px;
+    height: 200px;    
+}
+
+#blogApresentacao {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+#blogApresentacao h1, .receitasArtigos h2.receitastitulo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .2rem;
+    color: #FF914D;    
+}
+
+article.receitasArtigos h2.receitastitulo {
+    margin: 1rem 0;
+}
+
+#blogApresentacao h2 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.navegacaoReceitas .pagination .pages {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;    
+}
+
+.navegacaoReceitas .pagination .pages div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacaoReceitas .pagination .pages a {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#oferta .precoCheio {
+    font-size: 1.3rem;
+}
+
+#oferta .preco {
+   font-size: 3rem; 
+}
+
+.caloriasEnviar {
+    align-self: center;    
+}
+
+#secaoAgradecimentoContato {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#anuncieFormulario {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+
+#anuncieFormulario label {
+    font-weight: 500;
+}
+
+#anuncieFormulario input, #anuncieFormulario textarea{
+    border: 1px solid #228B22;
+    min-width: 500px;
+}
+
+#anuncieFormulario #anuncieFormularioBtn {
+    min-width: 200px;
+    max-width: 200px;
+    align-self: center;
+}
+
+.box.post .info {
+    display: none;
+}
+
+#nav .liCalculadora {
+    display: none;
+}
+
+#logo .botaoIndex {
+    display: none;
+}
+
+#midia, #acao, #vantagens, #garantia, .secaoDepoimentos {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:  0 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+}
+
+.sidebarContainer .posicaoFixa {
+    position: fixed;
+}
+
+.sidebarContainer {
+    position: fixed;
+    background-color: #228B22;
+    height: 100%;
+}
+
+.posicaoFixa #calorias {
+    position: fixed;
+    right: 0;   
+    background-color: #FF914D;
+    background-image: url(../images/bg01.png); 
+}
+
+.paginaConstrucao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.paginaConstrucao h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
+
+#nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+#nav ul li i {
+    color: #FFF;
+}
+
+#vantagensCel {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#vantagensCel img {
+    width: 125px;
+    height: 100px;
+}
+
+#garantia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem .5rem;
+}
+
+#garantia img {
+    width: 250px;
+    height: 225px;
+    margin-bottom: 1rem;
+}
+
+#garantia p {
+    color: #228B22;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+#sobreNos h1 {
+    font-size: 3rem;
+    color: #FF914D;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#sobreNos .e-booksCapas div p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#sobreNos .e-booksCapas div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobreNos .e-booksCapas div img {
+    width: 250px;
+    height: 300px;
+}
+
+#sobreNos .e-booksCapas {
+    align-items: center;
+    justify-content: center;
+}
+
+.receita header h1 {
+    color: #FF914D;
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 1rem;
+}
+
+#homeIntroducao h1#tituloIndex {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #228B22;
+    font-weight: 700;
+}
+
+#homeIntroducaoOutras h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #228B22;
+    font-weight: 700;
+    margin: 6rem 0;
+}
+
+#homeIntroducao p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.month span {
+    display: none;
+}
+
+#receitasNutricional p:last-child {
+    margin-bottom: 1rem;
+
+}
+
+.receitasArtigos h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin-bottom: 1rem;
+}
+
+.receita header h2 {
+    font-size: 2.5rem;
+}
+
+#botaoTopoWrapper {
+    position: absolute;
+    right: 0;
+}
+
+#iconeTopo {
+    margin-top: .35rem;
+}
+
+.pagination {
+    padding: 1rem;
+    bottom: 10px;
+}
+
+.indexPostImagem {
+    height: 330px;
+}
+
+.anteriorWrapper,
+.proximaWrapper,
+.paginasBotoes {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    color: #228B22;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#paginas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#paginas p {
+    color: black;
+    font-weight: 700;
+}
+
+.stats {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+}
+
+#imcVisor,
+#calculadoraVisor {
+    width: 200px;
+    height: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #ddd;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 1rem auto;
+    opacity: .6;
+    font-weight: 700;
+}
+
+.paginasBotoes button {
+    cursor: pointer;
+}
+
+#content .inner:first-child {
+    width: 800px;
+}
+
+#saibaMais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    color: #228B22;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+#saibaMais p {
+    margin: .5rem 0;
+}
+
+#saibaMais i {
+    margin-top: .2rem;
+}
+
+.capaIpad {
+    display: none;
+}
+
+#calorias form {
+    background-color: #FF914D;
+    padding: 0 20px 0 20px;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+    background-image: url("../images/bg01.png");
+    border: 1px solid #228B22;    
+}
+
+#imc form {
+    border-bottom: 0;
+}
+
+#calorias form input[type="submit"],
+#imc form input[type="button"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #228b22;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+#imc,
+#calorias {
+    margin-bottom: .5rem;
+}
+
+#calorias label {
+    color: #FFF;
+}
+
+#calorias #formularioCalorias p select {
+    border: none;
+    padding: .1rem .2rem;
+    width: 184px;
+}
+
+#calorias input {
+    border: none;
+}
+
+#calorias h2,
+#imc h2 {
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    color: #FFF;
+    font-weight: 700;
+    border-bottom: 1px solid #FFF;
+    text-align: center;
+}
+
+#formularioNovasDietas form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#formularioNovasDietas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#formularioNovasDietas h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+#novasDietasInfos p {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#formularioNovasDietas label input {
+    border: 1px solid #228B22;
+}
+
+#formularioNovasDietas label {
+    color: #228B22;
+}
+
+#formularioNovasDietas button {
+    background-color: #228B22;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+#logo {
+    font-size: 1rem !important;
+}
+
+#agradecimento h1 {
+    line-height: 40px;
+}
+
+.imprimir {
+    display: none;
+}
+
+#calorias #formularioCalorias select {
+    width: 100%;
+}
+
+#icones a i {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 1rem;
+}
+
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mediterranea h1 {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+}
+
+#formularioContrucao label {
+    display: flex;
+    flex-direction: column;
+}
+
+#formularioContrucao button {
+    max-width: 200px;
+    margin: 1rem auto 0 auto;
+}
+
+#icones {
+    display: none;
+}
+
+input {
+    border: none;
+}
+
+#caloriasFullPage #formularioCalorias,
+#imcCel {
+    background-color: #FF914D;
+    width: 50%;
+    margin: 4rem auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #333;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+    background-image: url("../images/bg01.png");
+}
+
+#imcCel {
+    margin: 2rem auto;
+}
+
+#imcCel form #botaoImc, #anuncieFormularioBtn{
+    color: #FFF;
+    padding: .5rem;
+    border-radius: 4px;
+    border: none;
+    margin-top: 1rem;
+    font-weight: 700;
+    background-color: #228B22;
+}
+
+#caloriasFullPage #formularioCalorias label,
+#imcCel form div label {
+    color: #FFF;
+    margin-top: .5rem;
+}
+
+#e-bookGratis {
+    position: relative;
+}
+
+#e-bookGratis a {
+    position: absolute;
+    top: 355px;
+    left: 20px;
+}
+
+#politicasDePrivacidade h1,
+#termosDeUso h1 {
+    font-size: 2.5rem;
+    color: red;
+    font-weight: 500;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#termosDeUso h1 {
+    color: black;
+}
+
+#secaoAgradecimentoContato h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin: 2rem 0;
+}
+
+.rodapeTituloCel {
+    display: none;
+}
+
+.e-booksTitulo h2 {
+    color: #FFF;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#e-books p {
+    margin: 2rem 0 0 0;
+    font-size: 1.2rem;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 1582px) {
+    #calorias {
+        display: none;
+    }
+
+    #nav .liCalculadora {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 737px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+    .botaoAcao {
+        margin: 4rem auto;
+    }
+
+    #nav .liCalculadora {
+        display: flex;
+    }
+
+    #content .inner:first-child {
+        width: 730px;
+    }
+
+    #cabecalho div img {
+        width: 48px;
+        height: 48px;
+    }
+
+    #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        background-color: #228B22;
+        height: 70px;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    }
+
+    #cabecalho div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        margin: 0;
+    }
+
+    #cabecalhoIcones .imprimir {
+        display: none;
+    }
+
+    #cabecalhoIcones .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #calorias {
+        display: none;
+    }
+
+    #icones {
+        display: flex;
+        gap: 1rem;
+        color: #FFF;
+        margin-bottom: 1rem;
+        justify-content: center;
+        cursor: pointer;
+        border-bottom: 1px solid #FFF;
+    }
+
+    #icones a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    #icones a i {
+        font-size: 20px;
+    }
+
+    #titleBar .title {
+        background-color: #228B22;
+    }
+
+    #titleBar .toggle:before {
+        background-color: #FF914D !important;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #todasReceitas {
+        width: 100px;
+        height: 30px;
+        background-color: #228B22;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: .7rem;
+        text-decoration: none;
+    }
+
+    #mediterranea h1,
+    #e-bookGratis h2,
+    #e-bookPago h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: black;
+        margin: 2rem 0;
+    }
+
+    #e-bookGratis h2,
+    #e-bookPago h2 {
+        margin: 0 0 1rem 0;
+        line-height: 40px;
+    }
+
+    #mediterranea p {
+        margin: 0 1rem;
+    }
+
+    .box.post {
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    #e-bookGratis div,
+    .e-booksCapas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #e-bookGratis div img,
+    .e-booksCapas img {
+        width: 200px;
+        height: 250px;
+        margin: 1rem 0;
+    }
+
+    .botaoBaixarGratis,
+    .botaoBaixarPago {
+        display: block;
+        width: 80%;
+        margin: 2rem auto;
+        background-color: #FF914D;
+        background-image: url(../images/bg01.png);
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #acao {
+        height: auto;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #acao h1 {
+        font-size: 2rem;
+    }
+
+    #acao iframe {
+        width: 100%;
+
+    }
+
+    .imgDesktop {
+        display: none;
+    }
+
+    #autora {
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    #autora p {
+        margin: 1rem 0 0 0;
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    #autora h2 {
+        line-height: 50px;
+    }
+
+    #botaoAcao {
+        width: 100%;
+    }
+
+    #vendas {
+        font-size: 1rem;
+        margin: 0;
+        height: auto;
+    }
+
+    .bonusConteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imgDesktop {
+        display: block;
+        height: 400px !important;
+    }
+
+    #oferta .ofertaTitulo {
+        width: 100%;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #e-books {
+        margin-bottom: 1rem;
+    }
+
+    #protegida {
+        width: 310px;
+        text-align: center;
+        position: absolute;
+        right: 36px;
+    }
+
+    .e-booksTitulo {
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    #e-bookGratis h1 {
+        line-height: 40px;
+        margin: 0;
+    }
+
+    #formulario form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #formulario form label input {
+        width: 100%;
+    }
+
+    #formulario button,
+    .baixarBotao {
+        margin: .5rem 0 1rem 0;
+        padding: 0;
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    #agradecimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #agradecimento h1 {
+        line-height: 40px;
+    }
+
+    .capaIpad {
+        display: block;
+    }    
+
+    #e-books .bonusConteiner {
+        margin: 1rem 0 0 0;
+    }  
+
+    #protegida {
+        margin-right: 11rem;
+    }
+
+    #novasDietasInfos h1 {
+        line-height: 40px;
+    }
+
+    #caloriasFullPage #formularioCalorias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botaoAcao {
+        width: 50%;
+    }
+
+    .e-booksCapas {
+        flex-direction: row;
+    }
+
+    #formulario #e-bookGratisFormulario {
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+@media screen and (max-width: 736px) {
+    .inner {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 737px) {}
+
+/* Laptop */
+@media screen and (min-width: 1202px) and (max-width: 1460px) {
+
+    #content.indexContainer {        
+        margin-left: 20rem;
+        
+    }
+
+    #mediterranea h4 {
+        font-size: 22px;
+    }
+
+    #sidebar a,
+    #sidebar h2 {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    div#icones {
+        border: none;
+    }
+
+    #nav li a {
+        font-size: 1rem;
+    }
+
+    div#sidebar {
+        width: 20rem;
+    }
+
+    html body p {
+        font-size: 16px;
+    }
+
+    .col-12 h2 {
+        font-size: 2rem;
+    }
+
+    #garantia img {
+        height: 250px;
+    }
+
+
+
+    #calorias form,
+    #caloriasFullPage #formularioCalorias {
+        display: none;
+    }
+
+    #icones {
+        display: flex;
+        gap: 1rem;
+        color: #FFF;
+        margin: 1rem 0;
+        justify-content: space-around;
+        cursor: pointer;
+        border-bottom: 1px solid #FFF;
+    }
+
+    #icones a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    #vendas #acao p {
+        margin: 2rem auto;
+    }
+
+    #formularioNovasDietas #formularioContrucao button {
+        width: 200px;
+    }
+
+
+}
+
+/* Wide - Larga*/
+@media screen and (min-width: 1201px) {
+
+    #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        background-color: #228B22;
+        height: 70px;
+        margin-bottom: .5rem;
+        padding: 1rem;
+    }
+
+    #cabecalho div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        margin: 0;
+    }
+
+    #cabecalho div img {
+        width: 48px;
+        height: 48px;
+    }
+
+    #cabecalhoIcones {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .imprimir,
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #video a {
+        color: black;
+    }
+
+    #e-bookGratis h2,
+    #e-bookPago h2,
+    #tituloPagina {
+        font-size: 3rem;
+        margin: 2rem 0 3rem 0;
+        color: black;
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    #e-bookGratis div {
+        display: flex;
+        gap: 3rem;
+        margin: 3rem 0 0 0;
+    }
+
+    #e-bookGratis div p {
+        margin-top: 1.5rem;
+    }
+
+    #e-bookGratis div img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #e-bookPago {
+        width: 100%;
+    }
+
+    .botaoBaixarPago,
+    .botaoBaixarGratis {
+        display: block;
+        width: 50%;
+        margin: 2rem auto;
+        background-color: #FF914D;
+        background-image: url(../images/bg01.png);
+        padding: 1rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .botaoBaixarGratis {
+        width: 200px;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .e-booksCapas {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem auto;
+    }
+
+    .e-booksCapas img {
+        width: 250px;
+        height: 300px;
+    }
+
+    #navReceitas {
+        display: flex;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    #navReceitas button {
+        width: 150px;
+        height: 40px;
+        background-color: #228B22;
+        color: #FFF;
+        font-weight: 700;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #todasReceitas {
+        background-color: #228B22;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+
+    .paginasBotoes {
+        display: flex;
+        gap: 1rem;
+        margin: 0 30%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paginasTitulo {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    #caloriasFullPage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    #caloriasFullPage #formularioCalorias {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border-radius: 8px;
+        max-height: 490px;
+    }
+
+    .imprimir {
+        display: none;
+    }
+
+    #calorias form,
+   
+
+    #caloriasFullPage #formularioCalorias select {
+        width: 100%;
+        border: none;
+    }
+
+    #calorias form input[type="submit"],
+    #imc form input[type="button"],
+    #caloriasFullPage #formularioCalorias input[type="submit"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #228b22;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        width: 182px;
+        height: 50px;
+        margin-top: 1rem;
+        border: none;
+    }
+
+    #imc,
+    #calorias {
+        margin-bottom: .5rem;
+        height: 100%;
+        background-color: #FF914D;
+        background-image: url(../images/bg01.png);
+    }
+
+    #calorias label,
+    #caloriasFullPage #formularioCalorias label {
+        color: #FFF;
+    }
+
+    #calorias input {
+        border: none;
+    }
+
+    #calorias h2,
+    #imc h2 {
+        margin-bottom: .5rem;
+        margin-left: .5rem;
+    }
+
+    #mediterranea h1 {
+        margin-bottom: 2rem;
+    }
+
+}
+
+/* Narrow / Estreita */
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+    .box.post .col-12 h2 {
+        color: black;
+    }
+
+    #formularioContrucao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #formularioNovasDietas button {
+        width: 250px;
+    }
+
+    #novasDietasInfos p {
+        text-align: left;
+    }
+
+    #sidebar #icones {
+        margin: .7rem 0 .15rem 0;
+        border: none;
+    }
+
+    #sidebar #icones a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #calorias form,
+    #caloriasFullPage #formularioCalorias,
+    #imcCel {
+        background-color: #FF914D;
+        padding: 20px;
+        box-shadow: 0px 0px 10px 0px #333;
+        color: #333;
+        font-size: 16px;
+        text-align: left;
+        background-image: url("../images/bg01.png");
+    }
+
+    #caloriasFullPage #formularioCalorias select {
+        width: 100%;
+        border: none;
+    }
+
+    #calorias form input[type="submit"],
+    #imcCel form div input[type="button"],
+    #caloriasFullPage #formularioCalorias input[type="submit"],
+    #imcCel form button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #228b22;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        width: 100%;
+        height: 50px;
+        margin-top: 1rem;
+        border: none;
+    }
+
+    #imcCel,
+    #calorias {
+        margin-top: .5rem;
+
+    }
+
+    #caloriasFullPage #formularioCalorias input {
+        border: none;
+    }
+
+    #calorias label,
+    #caloriasFullPage #formularioCalorias label,
+    #imcCel form div label {
+        color: #FFF;
+    }
+
+    #calorias input {
+        border: none;
+    }
+
+    #calorias h2,
+    #imcCel h2 {
+        margin-bottom: .5rem;
+        margin-left: .5rem;
+    }
+
+    #imcCel {
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 8rem;
+    }
+
+    #imcCel form div input {
+        width: 100%;
+        border: none;
+    }
+
+    #e-bookGratis a {
+        position: static;
+        margin-bottom: 2rem;
+    }
+
+    #e-bookGratis a,
+    #e-bookPago a {
+        width: 50%;
+    }
+
+    #formularioContrucao label input {
+        width: 400px;
+    }
+
+    #formularioContrucao button {
+        width: 200px;
+        margin-top: 1rem;
+    }
+
+
+}
+
+/* Narrower / Mais Estrito */
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+/* Mobile */
+@media screen and (max-width: 736px) {  
+    #titleBar {
+        display: block;
+    }
+
+    #cabecalho {
+        margin-top: 3rem;
+    }
+
+    #arvoreLinksWrapper h2 {
+        margin-top: .8rem;
+    }  
+
+    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+        text-align: center;
+        margin-top: .8rem;
+    }
+
+    .arvoreLinksContainer div:last-child a {
+        margin-right: 0;
+    }
+    
+    #arvore .displayDestop {
+        display: none;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel {
+        display: flex;
+        align-items: center;
+        width: 200px;  
+        height: 40px;   
+    } 
+
+    .arvoreLinksContainer div:nth-of-type(2) a {
+        margin-right: 20px;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel i {
+        margin-bottom: .6rem;
+    }   
+    
+    .arvoreLinksContainer div {
+        min-width: 200px;
+    }
+
+    .receita header h1 {        
+        font-size: 1.5rem;
+        line-height: 30px;        
+    }
+
+    #secaoRecomendados.box.post {
+        padding-bottom: 0;
+    }
+
+    .navegacaoReceitas .pagination .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;          
+        margin: 0;
+    } 
+
+    #recomendados {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #nav .liCalculadora {
+        display: flex;
+    }
+    
+    #e-bookGratis a.botaoBaixarGratis {
+        margin-top: 1rem;
+    }
+
+    .inner {
+        width: auto !important;
+    }
+
+    #formularioNovasDietas {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #formularioNovasDietas label input {
+        min-width: 250px;
+    }
+
+    #novasDietasInfos h1 {
+        font-size: 2rem;
+    }
+
+    #cabecalho div img {
+        width: 48px;
+        height: 48px;
+    }
+
+    #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        background-color: #228B22;
+        height: 70px;
+        margin-bottom: .5rem;
+        padding: 1rem;
+    }
+
+    #cabecalho div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        margin: 0;
+    }
+
+    #cabecalhoIcones .imprimir {
+        display: none;
+    }
+
+    #cabecalhoIcones .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #calorias {
+        display: none;
+    }
+
+    #icones {
+        display: flex;
+        gap: 1rem;
+        color: #FFF;
+        margin: 1rem 0;
+        justify-content: space-around;
+        cursor: pointer;
+       
+    }
+
+    #icones a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    #titleBar .title {
+        background-color: #228B22;
+    }
+
+    #titleBar .toggle:before {
+        background-color: #FF914D !important;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #todasReceitas {
+        width: 100px;
+        height: 30px;
+        background-color: #228B22;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: .7rem;
+        text-decoration: none;
+    }
+
+    #mediterranea h1,
+    #e-bookGratis h2,
+    #e-bookPago h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: black;
+        margin: 0 0 .7rem 1rem;
+        line-height: 30px;
+    }
+
+    #e-bookGratis h2,
+    #e-bookPago h2 {
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #mediterranea p {
+        margin: 0 1rem;
+    }
+
+    .box.post {
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    #e-bookGratis div,
+    .e-booksCapas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #e-bookGratis div img,
+    .e-booksCapas img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .botaoBaixarGratis,
+    .botaoBaixarPago {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #FF914D;
+        background-image: url(../images/bg01.png);
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #acao h1 {
+        font-size: 2rem;
+    }
+
+    #acao iframe {
+        width: 100%;
+
+    }
+
+    .imgDesktop {
+        display: none;
+    }
+
+    #autora {
+        height: auto;
+        text-align: center;
+    }
+
+    #autora h2 {
+        line-height: 50px;
+    }
+
+    #botaoAcao {
+        width: 100%;
+    }
+
+    #vendas {
+        font-size: 1rem !important;
+    }
+
+    .bonusConteiner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #vendas .bonus {
+        width: 180px;
+    }
+
+    .e-booksTitulo {
+        text-align: center;
+    }
+
+    #vantagensCel {
+        flex-wrap: wrap;
+    }
+
+    #vantagens img {
+        width: 100px;
+        height: 75px;
+    }
+
+    #vantagens {
+        padding: 1rem;
+    }
+
+    #oferta .ofertaTitulo {
+        width: 100%;
+        height: 70px;      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #protegida {
+        width: 100%;
+        text-align: center;      
+        
+    }
+
+    .e-booksTitulo {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    #e-bookGratis h1 {
+        line-height: 40px;
+        margin: 0;
+    }
+
+    #agradecimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #agradecimento h1 {
+        line-height: 40px;
+    }
+
+
+    #calorias {
+        display: block;
+    }
+
+
+    #caloriasFullPage form label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #calorias form input {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    #calorias form {
+        display: none;
+    }
+
+    #caloriasFullPage #formularioCalorias,
+    #imc {
+        display: block;
+    }
+
+    #caloriasFullPage #formularioCalorias input,
+    #imcCel form div input {
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    #caloriasFullPage #formularioCalorias .caloriasEnviar {
+        background-color: #228B22;
+        margin-top: 2rem;
+    }
+
+    .title {
+        text-decoration: underline;
+    }
+
+    #imc {
+        display: none;
+    }
+
+    #novasDietasInfos h1 {
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #novasDietasInfos form label {
+        width: 100%;
+    }
+
+    #formularioNovasDietas #formularioContrucao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #formularioNovasDietas #formularioContrucao button {
+        padding: 1rem;
+    }
+
+    .indexPostImagem {
+        height: 250px;
+    }
+}
+
+/* Off-Canvas Sidebar / Barra lateral fora da tela*/
+@media screen and (max-width: 1000px) {
+    #titleBar {
+        display: block;
+    }
+
+    #cabecalho {
+        margin-top: 3rem;
+    }
+
+    #arvoreLinksWrapper {
+        margin-top: 3rem;
+    }
+
+    #arvoreLinksWrapper h2 {
+        margin-top: .8rem;
+    }  
+
+    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+        text-align: center;
+        margin-top: .8rem;
+    }
+
+    .arvoreLinksContainer div:last-child a {
+        margin-right: 0;
+    }
+    
+    #arvore .displayDestop {
+        display: none;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel {
+        display: flex;
+        align-items: center;
+        width: 200px;  
+        height: 40px;   
+    } 
+
+    div#content.indexContainer {
+        margin: 0;
+    }
+    
+    #arvore .arvoreLinksContainer .displayCel i {
+        margin-bottom: .6rem;
+    }   
+    
+    .arvoreLinksContainer div {
+        min-width: 200px;
+    }
+}

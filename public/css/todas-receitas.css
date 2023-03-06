@@ -1,0 +1,215 @@
+#categorias h2 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#categorias h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+#categorias div h3 {
+    font-size: 3.5rem;
+    color: #228B22;
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+#categorias .categoriaContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px #333;
+    border-radius: 16px;
+    background-image: url(../images/bg01.png);
+    position: relative;
+    margin: 2rem 0;
+}
+
+.categoriasLinks a:first-child {
+    text-decoration: none;
+    color: black;
+}
+
+.categoriasTitulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriasTitulo img {
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    right: 16px;
+    top: -25px;
+}
+
+.categoriaContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FF914D;
+    margin: .5rem 0;
+}
+
+.categoriaContainer div:first-child {
+    border: none;
+}
+
+.categoriasBotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #228b22;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100px;
+    height: 28px;
+    border: none;
+    margin: 0 0 .5rem 0;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.categoriasTitulo .sobremesaImg,
+.categoriasTitulo .lancheImg,
+.categoriasTitulo .massaImg,
+.categoriasTitulo .carneImg,
+.categoriasTitulo .aveImg,
+.categoriasTitulo .peixeImg {
+    width: 100px;
+    height: 130px;
+    top: -1px;
+}
+
+#categoriasFiltro {
+    display: flex;
+    gap: 1rem;
+}
+
+#categorias {
+    text-align: center;
+}
+
+
+
+#categoriasFiltro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#categoriasFiltro a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #228B22;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    transition: all 0.3s ease;
+}
+
+#categoriasFiltro a:hover {
+    background-color: #FF914D;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.categoriaContainer #categoriasLinksTopo .categoriasBotaoTopo {
+    background-color: #FF914D;
+    color: #FFF;
+}
+
+.categoriaContainer #categoriasLinksTopo {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 736px) {
+    .categoriasLinks a:first-child {
+        text-align: left;    
+    }
+
+    .categoriasBotao {
+        font-size: .8rem;
+        width: auto;
+        height: auto;
+        border-radius: 4px;
+        padding: .2rem .4rem;
+
+    }
+
+    #categorias h2 {
+        line-height: 50px;
+        font-size: 2.5rem;
+    }
+
+    #categorias div h3 {
+        font-size: 2rem;
+    }
+
+    .categoriasTitulo img,
+    .categoriasTitulo .sobremesaImg,
+    .categoriasTitulo .lancheImg,
+    .categoriasTitulo .massaImg,
+    .categoriasTitulo .carneImg,
+    .categoriasTitulo .aveImg,
+    .categoriasTitulo .peixeImg {
+        width: 80px;
+        height: 100px;
+        right: 16px;
+        top: 5px;
+    }
+
+    #categoriasFiltro a {
+        font-size: 22px;
+    }
+
+    #categoriasFiltro {
+        display: flex;
+        flex-direction: column;
+        padding: .2rem .4rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {}
+
+@media screen and (min-width: 737px) {}
+
+@media screen and (min-width: 737px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+
+
+@media screen and (min-width: 737px) {}
+
+/* Laptop */
+@media screen and (min-width: 1201px) and (max-width: 1460px) {}
+
+/* Wide */
+@media screen and (min-width: 1201px) {}
+
+/* Narrow */
+@media screen and (min-width: 737px) and (max-width: 1200px) {}
+
+/* Narrower */
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+/*Mobile Menores*/
+@media screen and (min-width: 320px) and (max-width: 735px) {}
+
+/* Mobile */
+@media screen and (max-width: 736px) {}
+
+/* Off-Canvas Sidebar */
+@media screen and (max-width: 1000px) {}

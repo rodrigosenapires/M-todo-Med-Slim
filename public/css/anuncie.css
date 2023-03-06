@@ -1,0 +1,51 @@
+#formularioAnuncie {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#formularioAnuncie label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#formularioAnuncie input[type="text"], #formularioAnuncie input[type="email"], #formularioAnuncie input[type="tel"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+#formularioAnuncie textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#formularioAnuncie input[type="submit"] {
+    background-color: #FF914D;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#formularioAnuncie input[type="submit"]:hover {
+    background-color: #FF8C00;
+}
+
+#anuncie h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+}
