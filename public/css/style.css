@@ -10,6 +10,10 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
+div#redesSociais.redesSociaisMed-Slim div a i {
+    color: #FFF;
+}
+
 .arvoreLinksContainer div.displayDestop {
     height: 60px;
 }
