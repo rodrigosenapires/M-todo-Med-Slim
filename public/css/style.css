@@ -10,6 +10,18 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
+#arvore .displayDestop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    padding: .8rem;
+    width: 400px;
+}
+
 #sidebar.linhaFinal nav:after {
     content: '';
 	border-top: solid 1px;
@@ -1590,6 +1602,27 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {  
+
+    #arvore .displayCel:nth-last-of-type(5) p:last-child {
+        margin-right: .4rem;
+    }
+
+    #arvore .displayCel i {
+        margin-top: 10px;
+    }
+
+    #arvore .displayCel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFF;
+        text-decoration: none;
+        border: 1px solid #FFF;
+        border-radius: 12px;
+        padding: .8rem;
+        width: 200px;
+    }
+
     #titleBar {
         display: block;
     }
