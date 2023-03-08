@@ -10,6 +10,14 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
+.emailRodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
 #arvore .displayDestop {
     display: flex;
     justify-content: space-between;
@@ -1601,7 +1609,7 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {  
+@media screen and (max-width: 736px) {     
 
     #arvore .displayCel:nth-last-of-type(5) p:last-child {
         margin-right: .4rem;
