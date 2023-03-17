@@ -2452,7 +2452,7 @@ ol li {
 
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
-	margin: 0;
+	margin-left: 50vh;
 	box-shadow: none;
 }
 
