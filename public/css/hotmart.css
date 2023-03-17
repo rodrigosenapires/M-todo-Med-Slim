@@ -1,5 +1,9 @@
+#calorias, #sidebar {
+    display: none;
+}
+
 @media screen and (max-width: 736px) {
-    div#titleBar, #calorias {
+    div#titleBar {
         display: none;
     }
 }
