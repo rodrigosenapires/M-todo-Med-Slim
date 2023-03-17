@@ -1242,7 +1242,10 @@ dl {
 	/* Content */
 	div#content.indexContainer {		
 		padding: 0;
-		margin: 1rem 0 0 16rem;
+		margin: 0;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
 	}	
 
 }
@@ -2449,7 +2452,7 @@ ol li {
 
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 50vh;
+	margin: 0;
 	box-shadow: none;
 }
 

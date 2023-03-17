@@ -58,6 +58,9 @@ div#redesSociais.redesSociaisMed-Slim div a i {
 }
 
 .bodyIndex {
+    display: flex;
+    align-items: center;
+    justify-items: center;
     background-color: #228B22;    
 }
 
@@ -66,7 +69,11 @@ div#redesSociais.redesSociaisMed-Slim div a i {
 }
 
 #content.arvoreLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #228B22;
+    height: 100vh;
 }
 
 #arvoreLinksWrapper {
@@ -77,7 +84,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     background-color: #FF914D;
     border-radius: 16px;
     padding: 1rem;   
-    margin-top: 22.5vh;
+    margin: 0;
 }
 
 #arvoreLinksWrapper img{
@@ -1181,7 +1188,9 @@ input {
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
 
     #content.indexContainer {        
-        margin-left: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
     }
 
