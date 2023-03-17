@@ -10,10 +10,6 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
-#sidebar.hotmart, #calorias {
-    display: none;
-}
-
 .emailRodape {
     display: flex;
     justify-content: center;
