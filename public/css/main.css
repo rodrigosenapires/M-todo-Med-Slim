@@ -750,7 +750,7 @@ dl {
 
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) {	
 
 	.row {
 		display: flex;
@@ -994,6 +994,13 @@ dl {
 	}
 
 	
+}
+
+/* Laptop */
+@media screen and (min-width: 1100px) and (max-width: 1500px) {
+	div#content.indexContainer {
+		margin-left: 40vh;
+	}
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -1242,10 +1249,9 @@ dl {
 	/* Content */
 	div#content.indexContainer {		
 		padding: 0;
-		margin: 0;
+		margin-left: 32vh;
 		height: 100vh;
-		justify-content: center;
-		align-items: center;
+		
 	}	
 
 }
@@ -2452,7 +2458,7 @@ ol li {
 
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 50vh;
+	margin-left: 45vh;
 	box-shadow: none;
 }
 
