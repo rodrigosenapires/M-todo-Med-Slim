@@ -1,0 +1,418 @@
+#sidebar section:before,
+#sidebar nav:after {
+    content: '';
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075), 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+    display: block;
+    height: 0.5em;
+    margin: 0 0 1rem 0;
+}
+
+#paginaAfiliados {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.paginaAfiliadosApresentacao,
+#vatagensAfiliacao,
+#autores {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+}
+
+#paginaAfiliados .paginaAfiliadosApresentacao h1 {
+    color: #228B22;
+    margin: 2rem auto;
+}
+
+.textoApresentacao {
+    margin: 1rem 0;
+}
+
+#vatagensAfiliacao {
+    background-color: #228B22;
+}
+
+#vatagensAfiliacao img {
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid #FFF;
+}
+
+.vantagensTexto p {
+    color: #FFF;
+}
+
+.vantagensTexto span, .textoMateriaisDivulgacao span, span.tituloReceita {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.vantagensTexto p,
+.textoAutores, .textoApresentacao p {
+    margin-bottom: 1rem;
+}
+
+#botaoAfiliar {
+    background-color: #FF914D;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border-radius: 32px;
+}
+
+#nav h2.navAfiliados {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #FFF;
+    color: #228B22;
+    width: 100%;
+}
+
+.textoAutores span {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#autores h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #228B22;
+}
+
+#regrasProduto, #contraIndicacoes {
+    background-color: #228B22;
+    color: #FFF;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+#regrasProduto span, #contraIndicacoes span, .conteudo-textual span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#autores h2,
+#regrasProduto h1, #contraIndicacoes h1, .textoApresentacao h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#regrasProduto li, #contraIndicacoes li, .textoApresentacao li {
+    margin-bottom: 1rem;
+}
+
+#contraIndicacoes p {
+    margin: 2rem 0;
+}
+
+#materialDivulgacao {
+    background-color: #228B22;
+    color: #FFF;
+    border-radius: 16px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+div.textoApresentacao h1 {
+    color: #FFF;
+    line-height: 45px;
+    margin-bottom: 1rem;
+}
+
+.ancoraContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancoraCustomizada {
+    display: inline-block;
+    background-color: #FF914D;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 12px 24px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    width: 50%;
+  }
+
+  .ancoraCustomizada:hover {
+    background-color: #1C661B;
+    transform: scale(1.05);
+  }
+
+  .ancoraCustomizada:last-child {
+    margin-bottom: 0;
+  }
+
+  .divulgacaoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem;       
+}
+
+#criativosFacebook {
+    margin: 2rem 0;
+}
+
+.criativo {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.arte-pronta, .imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.conteudo-textual {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #FF914D;
+    color: #FFF;    
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;    
+    transition: background-color 0.3s;
+}
+
+.bnt-espacamento {
+    margin-top: 11.9rem;
+}
+
+.download-btn:hover {
+    background-color: #186a18;
+}
+
+.criativoInsta1Espacamento {
+    margin-top: 13rem;
+}
+
+.criativo3Espacamento {
+    margin-top: 8.9rem;
+}
+
+.criativo4Espacamento {
+    margin-top: 3rem;
+}
+
+.criativoInsta3Espacamento {
+    margin-top: 5rem;
+}
+
+.ativo {    
+    border: 1px solid #1C661B; 
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;    
+    transition: 0.2s;
+}
+
+nav li:active {
+    background-color: #1C661B;
+    transform: translateY(2px);    
+}
+
+.criativoCopys li {
+    margin: 2rem 0;
+}
+
+.criativoInsta li {
+    margin: 1rem 0;
+}
+
+.criativoCopys h2, .criativoInsta h {
+    font-size: 1.5rem;
+    color: #228B22;
+    text-align: center;
+    margin-bottom: 2rem;    
+}
+
+#copys {
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 2em;
+}
+
+.galeriaImagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.galeriaImagens img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.galeriaImagens img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#galeriaMediterraneaContainer, #galeriaVidaSaudavelContainer, #galeriaReceitasContainer {
+    background-color: #228B22;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 2rem auto;
+}
+
+#galeriaTreinosContainer, #galeriaPerdaPesoContainer {
+    background-color: #FF914D;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 2rem auto;
+}
+
+#bancoImagens h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #228B22;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+#bancoImagens h2, #galeriaVidaSaudavelContainer h2, #galeriaPerdaPesoContainer h2, #galeriaReceitasContainer h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    margin: 1rem 0;    
+}
+
+#secaoVideos {
+    font-family: Arial, sans-serif;
+    background-color: #FFF;
+    color: #228B22;
+    margin: 2rem auto;
+}
+
+.secaoVideosCabecalho {
+    background-color: #228B22;
+    padding: 1rem;   
+    margin-bottom: 1rem; 
+    border-radius: 5px;
+}
+
+div.secaoVideosCabecalho h1 {
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;    
+}
+
+.galeriaVideos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF914D;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.video h3 {
+    font-size: 1.2rem;    
+    text-align: center;
+    color: #FFF;
+}
+
+#redesSociais.afiliadosMaterialDivulgacaoEspacamento h3 {
+    margin-left: 2.5rem;
+}
+
+main #secaoPersona {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+#personaMedSlim {
+    margin-top: 2rem;
+    box-shadow: 0px 0px 10px 0px #333;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+#personaMedSlim P {
+    margin-top: 1rem;
+}
+
+#personaMedSlim span {
+    font-weight: 700;
+}
+
+
+.conteudoParaPersona {
+    padding: 1rem;
+    border-radius: 16px;
+    color: #FFF;
+    background-color:  #228B22;    
+}
+
+.conteudoParaPersona h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #FFF;
+}
+
+.conteudoParaPersona ol {
+    margin-top: 1rem;
+}
