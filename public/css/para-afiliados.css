@@ -380,6 +380,10 @@ div.secaoVideosCabecalho h1 {
     margin-left: 2.5rem;
 }
 
+#redesSociais h3 {
+    margin-left: 2.5rem;
+}
+
 main #secaoPersona {
     display: flex;
     flex-direction: column;

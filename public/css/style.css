@@ -9,6 +9,7 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
+@import url(para-afiliados.css);
 
 .emailRodape {
     display: flex;
