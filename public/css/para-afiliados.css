@@ -424,3 +424,19 @@ main #secaoPersona {
 .conteudoParaPersona ol {
     margin-top: 1rem;
 }
+
+#espacamentoFace5 {
+   margin-top: 5rem;
+}
+
+#espacamentoFace7 {
+    margin-top: 15rem;
+}
+
+#espacamentoFace8 {
+    margin-top: 22rem;
+}
+
+footer#rodape {
+    margin-top: 2rem;
+}
