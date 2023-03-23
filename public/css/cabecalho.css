@@ -50,12 +50,8 @@
 
     .fa-solid {
         font-size: 16px;
-    }
-    
-    i.fa-pinterest:before {
-        margin-left: .3rem;
-    }
-
+    } 
+        
     #botaoTopoWrapper {
         bottom: -8px;
     } 
