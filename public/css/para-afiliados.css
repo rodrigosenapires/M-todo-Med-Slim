@@ -524,3 +524,9 @@ footer#rodape {
 .espacamentoFace6 {
     margin-top: 2.2rem;
 }
+
+div#agradecimento h1 {
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+}
