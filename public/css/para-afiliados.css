@@ -535,6 +535,10 @@ div#agradecimento h1 {
     display: none;
 }
 
+.cabecalhoTituloCel {
+    display: none;
+}
+
 /* Mobile */
 @media screen and (max-width: 736px) {
     #vatagensAfiliacao img {
@@ -542,7 +546,14 @@ div#agradecimento h1 {
     }
 
     #paginaAfiliados .paginaAfiliadosApresentacao h1 {
-        line-height: 40px;
+        line-height: 35px;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    #autores h2 {
+        font-size: 1.5rem;
+        margin: 1rem auto;
     }
 
    #sobre li.redesSociasCel {
@@ -558,7 +569,168 @@ div#agradecimento h1 {
 
     .faceDesk {
         display: none;
+    } 
+    
+    #titleBar .title {
+        display: none;
     }
 
-   
+    a.baixarBotao {
+        text-align: center;
+    }
+
+    #bancoImagens h1 {
+        font-size: 1.8rem;
+        line-height: 35px;
+        margin: 1rem auto;
+    }
+
+    .cabecalhoTituloDesk {
+        display: none;
+    }
+
+    .cabecalhoTituloCel {
+        display: block;
+    }
+
+    #bancoImagens h2, #contraIndicacoes h1 {
+        line-height: 35px;
+        margin: 0 auto;
+    }
+
+    #titleBar span.title {
+        display: none;
+    }
+
+    #content p {
+        font-size: 1rem;
+    }
+
+    .textoContraIndicacoes{
+        font-size: 1rem;
+    }
+
+    div.criativo {
+        width: 280px;
+    }
+
+    div.textoApresentacao h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+
+    a.ancoraCustomizada {
+        width: 100%;
+    }
+
+    .box h1 {
+        line-height: 40px;
+    }
+
+    .conteudoParaPersona h2 {
+        line-height: 30px;
+    }
+    
+    .conteudoParaPersona h2 {
+        padding-bottom: 10px;
+    }
+
+    #regrasProduto h1 {
+        line-height: 35px;
+        font-size: 1.5rem;
+    }
+
+    div.secaoVideosCabecalho h1 {
+        font-size: 1.5rem;
+    }
+
+    .galeriaVideos {
+        justify-content: center;
+    }
+
+
+    
+    .espacamentoPt2 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt4 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt6 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt8 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt10 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt12 {
+        margin-top: 0;
+    }
+    
+    .espacamentoPt13 {
+        margin-top: 0;
+    }
+    
+    #espacamentoIt1 {
+        margin-top: 0;
+    }
+    
+    .espacamentoIt3 {
+        margin-top: 0;
+    }
+    
+    .espacamentoIt5 {
+        margin-top: 0;
+    }
+    
+    .espacamentoINST1 {
+        margin-top: 0;
+    }
+    
+    .espacamentoINST2 {
+        margin-top: 0;
+    }
+    
+    .espacamentoINST3 {
+        margin-top: 0;
+    }
+    
+    .espacamentoINST4 {
+        margin-top: 0;
+    }
+    
+    .espacamentoINST5 {
+        margin-top: 0;;
+    }
+    
+    .espacamentoFace1 {
+        margin-top: 0;
+    }
+    
+    .espacamentoFace2 {
+        margin-top: 0;
+    }
+    
+    .espacamentoFace3 {
+        margin-top: 0;
+    }
+    
+    .espacamentoFace4 {
+        margin-top: 0;
+    }
+    
+    .espacamentoFace5 {
+        margin-top: 0;
+    }
+    
+    .espacamentoFace6 {
+        margin-top: 0;
+    }
 }
