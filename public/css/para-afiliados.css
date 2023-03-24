@@ -539,6 +539,39 @@ div#agradecimento h1 {
     display: none;
 }
 
+#contador {
+    margin-top: 2rem;
+}
+
+div.tempo {
+    padding: 2rem;
+    background-color: #228B22;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#oferta .tempo p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#notificacao {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #FFF;
+    color: #000;
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
 /* Mobile */
 @media screen and (max-width: 736px) {
     #vatagensAfiliacao img {
@@ -648,8 +681,6 @@ div#agradecimento h1 {
         justify-content: center;
     }
 
-
-    
     .espacamentoPt2 {
         margin-top: 0;
     }
