@@ -606,6 +606,22 @@ div.tempo {
   #provasSociais .video {
     background-color: #FFF;
   }
+
+  #contador-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contador-item {
+    background-color: #228B22;
+    color: #FFF;
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
  
 /* Mobile */
 @media screen and (max-width: 736px) {
