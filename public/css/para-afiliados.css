@@ -777,3 +777,11 @@ div.tempo {
         transform: translate(-50%, -50%);
       }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+    div#notificacao.posicaoDiferente {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+}
