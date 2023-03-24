@@ -573,8 +573,10 @@ div.tempo {
   }
   
   #notificacao.posicaoDiferente {
-    right: 200px;
+    right: 265px;
+    width: 175px;
   }
+  
 
 /* Mobile */
 @media screen and (max-width: 736px) {
@@ -768,4 +770,10 @@ div.tempo {
     .espacamentoFace6 {
         margin-top: 0;
     }
+
+    div#notificacao.posicaoDiferente {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
 }
