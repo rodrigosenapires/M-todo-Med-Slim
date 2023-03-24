@@ -1,3 +1,7 @@
+a.botaoAcao {
+    width: 50%;
+}
+
 #sidebar section:before,
 #sidebar nav:after {
     content: '';
@@ -611,6 +615,7 @@ div.tempo {
   #contador-externo {
     background-color: #FF914D;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -622,8 +627,12 @@ div.tempo {
     color: #FFF;
     font-size: 1.2rem;
     margin-right: 15px;
-    border-right: 2px solid #FFF;
-    padding-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+#contadorContainer {
+    display: flex;
 }
 
 .contador-unidade {
@@ -648,7 +657,11 @@ div.tempo {
   
  
 /* Mobile */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {    
+    a.botaoAcao {
+        width: 100%;
+    }
+    
     #vatagensAfiliacao img {
         height: 200px;
     }

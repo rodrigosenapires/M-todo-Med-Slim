@@ -53,5 +53,5 @@ function exibirNotificacao() {
     }, 5000);
 }
 
-setInterval(exibirNotificacao, 1 * 60 * 1000);
+setInterval(exibirNotificacao, 2.5 * 60 * 1000);
 exibirNotificacao();
