@@ -1622,9 +1622,7 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {     
-
-  
-
+ 
     #arvore .displayCel i {
         margin-top: 10px;
     }
