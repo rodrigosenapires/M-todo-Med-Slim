@@ -607,20 +607,43 @@ div.tempo {
     background-color: #FFF;
   }
 
-  #contador-container {
+  #contador-externo {
+    background-color: #FF914D;
     display: flex;
+    align-items: center;
     justify-content: center;
-  }
-  
-  .contador-item {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.texto-promocao {
+    color: #FFF;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    border-right: 2px solid #FFF;
+    padding-right: 15px;
+}
+
+.contador-unidade {
     background-color: #228B22;
     color: #FFF;
-    font-size: 2rem;
-    padding: 10px 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 3px;
     margin: 0 5px;
-    border-radius: 5px;
-    text-align: center;
-  }
+    display: flex;
+    align-items: center;
+}
+
+.contador-numero {
+    margin-right: 5px;
+}
+
+.contador-rotulo {
+    font-size: 0.8rem;
+}
+
   
  
 /* Mobile */

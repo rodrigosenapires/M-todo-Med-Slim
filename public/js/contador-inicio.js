@@ -1,37 +1,46 @@
-function gerarTempoAleatorio(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+document.addEventListener('DOMContentLoaded', function () {
+  function formatarData(data) {
+      const dia = String(data.getDate()).padStart(2, '0');
+      const mes = String(data.getMonth() + 1).padStart(2, '0');
+      const ano = data.getFullYear();
+
+      return dia + '/' + mes + '/' + ano;
   }
-  
+
+  function formatarTempo(tempo) {
+      const dias = Math.floor(tempo / 86400);
+      const horas = Math.floor((tempo % 86400) / 3600);
+      const minutos = Math.floor((tempo % 3600) / 60);
+      const segundos = tempo % 60;
+
+      return {dias, horas, minutos, segundos};
+  }
+
   function atualizarCronometro() {
-    const diasDiv = document.getElementById('dias');
-    const horasDiv = document.getElementById('horas');
-    const minutosDiv = document.getElementById('minutos');
-    const segundosDiv = document.getElementById('segundos');
-  
-    const tempoRestante = fimCronometro - Date.now();
-  
-    if (tempoRestante <= 0) {
-      clearInterval(intervalo);
-      segundosDiv.innerHTML = 'Promoção Encerrada!';
-    } else {
-      const diasRestantes = Math.floor(tempoRestante / (1000 * 60 * 60 * 24));
-      const horasRestantes = Math.floor((tempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutosRestantes = Math.floor((tempoRestante % (1000 * 60 * 60)) / (1000 * 60));
-      const segundosRestantes = Math.floor((tempoRestante % (1000 * 60)) / 1000);
-  
-      diasDiv.innerHTML = `${diasRestantes} Dias`;
-      horasDiv.innerHTML = `${horasRestantes.toString().padStart(2, '0')} Horas`;
-      minutosDiv.innerHTML = `${minutosRestantes.toString().padStart(2, '0')} Min`;
-      segundosDiv.innerHTML = `${segundosRestantes.toString().padStart(2, '0')} Seg`;
-    }
+      const tempoRestante = fimCronometro - Date.now();
+
+      if (tempoRestante <= 0) {
+          clearInterval(intervalo);
+          document.getElementById('dias').querySelector('.contador-numero').innerHTML = '00';
+          document.getElementById('horas').querySelector('.contador-numero').innerHTML = '00';
+          document.getElementById('minutos').querySelector('.contador-numero').innerHTML = '00';
+          document.getElementById('segundos').querySelector('.contador-numero').innerHTML = '00';
+      } else {
+          const segundosRestantes = Math.floor(tempoRestante / 1000);
+          const tempoFormatado = formatarTempo(segundosRestantes);
+          document.getElementById('dias').querySelector('.contador-numero').innerHTML = tempoFormatado.dias.toString().padStart(2, '0');
+          document.getElementById('horas').querySelector('.contador-numero').innerHTML = tempoFormatado.horas.toString().padStart(2, '0');
+          document.getElementById('minutos').querySelector('.contador-numero').innerHTML = tempoFormatado.minutos.toString().padStart(2, '0');
+          document.getElementById('segundos').querySelector('.contador-numero').innerHTML = tempoFormatado.segundos.toString().padStart(2, '0');
+      }
   }
-  
-  const tempoMinimo = 15 * 60 + 37; // 15 minutos e 37 segundos
-  const tempoMaximo = 25 * 60 + 2;  // 25 minutos e 2 segundos
-  
-  const tempoAleatorio = gerarTempoAleatorio(tempoMinimo, tempoMaximo);
+
+  const tempoMinimo = 15 * 60 + 37;
+  const tempoMaximo = 25 * 60 + 2;
+
+  const tempoAleatorio = Math.floor(Math.random() * (tempoMaximo - tempoMinimo + 1)) + tempoMinimo;
   const fimCronometro = Date.now() + tempoAleatorio * 1000;
-  
+
   const intervalo = setInterval(atualizarCronometro, 1000);
   atualizarCronometro();
-  
+});
