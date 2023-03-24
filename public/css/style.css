@@ -52,6 +52,10 @@ body {
     padding: 3rem;
 }
 
+.carrossel.carrosselSobremesasDetox {     
+    padding: 6rem;
+}
+
 .carrossel img {
     width: 100%;
     object-fit: cover;

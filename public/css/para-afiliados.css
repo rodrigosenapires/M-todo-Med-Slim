@@ -1,3 +1,12 @@
+footer#rodape.box.post.post-excerpt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #228B22;
+    padding: 1rem;
+    margin-top: 15rem;
+}
+
 a.botaoAcao {
     width: 50%;
 }
