@@ -613,7 +613,7 @@ div.tempo {
   }
 
   #contador-externo {
-    background-color: #FF914D;
+    background-color: #228B22;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -636,7 +636,7 @@ div.tempo {
 }
 
 .contador-unidade {
-    background-color: #228B22;
+    background-color: #FF914D;
     color: #FFF;
     font-size: 1.5rem;
     padding: 10px;
@@ -661,7 +661,7 @@ div.tempo {
     a.botaoAcao {
         width: 100%;
     }
-    
+
     #vatagensAfiliacao img {
         height: 200px;
     }
