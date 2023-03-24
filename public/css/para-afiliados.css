@@ -572,6 +572,9 @@ div.tempo {
     z-index: 1000;
   }
   
+  #notificacao.posicaoDiferente {
+    right: 100px;
+  }
 
 /* Mobile */
 @media screen and (max-width: 736px) {
