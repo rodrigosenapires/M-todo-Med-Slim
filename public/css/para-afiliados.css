@@ -590,6 +590,23 @@ div.tempo {
     font-size: 1.4rem;
   }
 
+  div.video {
+    background-color: #FF914D;
+  }
+
+  section#secaoPersona .conteudoParaPersona h2 {
+    color: #FFF;
+    padding-bottom: 1rem;
+  }
+
+  .conteudoParaPersona li {
+    font-size: 1rem;
+  }
+
+  #provasSociais .video {
+    background-color: #FFF;
+  }
+ 
 /* Mobile */
 @media screen and (max-width: 736px) {
     #vatagensAfiliacao img {
@@ -792,6 +809,17 @@ div.tempo {
 
 /* IPAD */
 @media screen and (min-width: 737px) and (max-width: 1400px) {
+
+    img.melhorDietaImg {
+        height: 400px;
+        width: 300px;
+        margin-top: 1rem;
+    }
+
+    section#secaoPersona .conteudoParaPersona h2 {
+        color: #FFF;
+        padding-bottom: 1rem;
+      }
     #oferta div#notificacao.posicaoDiferente {
         top: 50%;
         left: 60%;
@@ -886,5 +914,9 @@ div.tempo {
     
     .espacamentoFace6 {
         margin-top: 0;
+    }
+
+    div#content.indexContainer.espacamentoPaginaVendasMS {
+        margin-left: 20vh;
     }
 }
