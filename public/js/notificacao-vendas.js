@@ -19,3 +19,4 @@ function exibirNotificacao() {
 }
 
 setInterval(exibirNotificacao, 3 * 60 * 1000);
+exibirNotificacao();
