@@ -988,8 +988,13 @@ div.tempo {
     }
 }
 
+/* Laptop */
 @media screen and (min-width: 1400px) and (max-width: 1680px){
     div#content.indexContainer.espacamentoPaginaAfiliadosDesk {
         margin-left: 32vh;
+    }
+
+    div#sidebar {
+        width: 15rem;
     }
 }
