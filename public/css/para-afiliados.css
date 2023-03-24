@@ -779,9 +779,10 @@ div.tempo {
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
-    div#notificacao.posicaoDiferente {
+    #oferta div#notificacao.posicaoDiferente {
         top: 50%;
-        left: 50%;
+        left: 60%;
         transform: translate(-50%, -50%);
+        width: 400px;
       }
 }
