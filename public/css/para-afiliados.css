@@ -539,22 +539,23 @@ div#agradecimento h1 {
 }
 
 #contador {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 div.tempo {
     padding: 2rem;
     background-color: #228B22;
     color: #FFF;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #oferta .tempo p {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+    text-transform: uppercase;
 }
 
 #notificacao {
@@ -957,5 +958,11 @@ div.tempo {
 
     div#content.indexContainer.espacamentoPaginaVendasMS {
         margin-left: 20vh;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1680px){
+    div#content.indexContainer.espacamentoPaginaAfiliadosDesk {
+        margin-left: 32vh;
     }
 }
