@@ -657,7 +657,10 @@ div.tempo {
   
  
 /* Mobile */
-@media screen and (max-width: 736px) {    
+@media screen and (max-width: 736px) { 
+    #contador-externo {
+        margin-top: 1rem;
+    }
     a.botaoAcao {
         width: 100%;
     }
