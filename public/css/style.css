@@ -1684,7 +1684,10 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {     
- 
+    #redesSociais.redesSociaisMed-Slim {
+        display: flex;
+    }
+
     #arvore .displayCel i {
         margin-top: 10px;
     }
