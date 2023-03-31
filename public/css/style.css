@@ -9,10 +9,66 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
+@import url(loja-med-slim.css);
 
 body {
     font-family: Arial, sans-serif;
 }
+
+/* Parceiros */
+#parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.parceiro-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 10px 5px rgba(255, 145, 77, 0.7) inset;
+    background-image: linear-gradient(rgba(255, 145, 77, 0.7), rgba(255, 145, 77, 0.7));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.parceiro-card img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.parceiro-card h3 {
+    font-size: 18px;
+    color: #228B22;
+    margin-bottom: 5px;
+}
+
+.parceiro-card a {
+    text-decoration: none;
+    color: #FF914D;
+    font-weight: 600;
+}
+
+.parceiro-card a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #228B22;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
 
 .vejaMais {
     display: flex;
@@ -52,7 +108,7 @@ body {
     padding: 3rem;
 }
 
-.carrossel.carrosselSobremesasDetox {     
+.carrossel.carrosselSobremesasDetox {
     padding: 6rem;
 }
 
@@ -98,13 +154,13 @@ body {
 
 #sidebar.linhaFinal nav:after {
     content: '';
-	border-top: solid 1px;
-	border-bottom: solid 1px;
-	border-color: rgba(0, 0, 0, 0.25);
-	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075), 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
-	display: block;
-	height: 0.5em;
-	margin: 0 0 1rem 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075), 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+    display: block;
+    height: 0.5em;
+    margin: 0 0 1rem 0;
 }
 
 div#redesSociais.redesSociaisMed-Slim div a i {
@@ -127,7 +183,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     display: flex;
     align-items: center;
     justify-items: center;
-    background-color: #228B22;    
+    background-color: #228B22;
 }
 
 #titleBar {
@@ -149,11 +205,11 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     flex-direction: column;
     background-color: #FF914D;
     border-radius: 16px;
-    padding: 1rem;   
+    padding: 1rem;
     margin: 0;
 }
 
-#arvoreLinksWrapper img{
+#arvoreLinksWrapper img {
     width: 52px;
     height: 52px;
     border-radius: 50%;
@@ -171,14 +227,15 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     text-align: center;
 }
 
-#arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+#arvoreLinksWrapper h3,
+.arvoreLinksContainer div i {
     color: #FFF;
     text-align: center;
     margin-top: 1rem;
 }
 
 .arvoreLinksContainer div p {
-    
+
     font-weight: 700;
     color: #FFF;
 }
@@ -193,7 +250,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
 
 .arvoreLinksContainer div:nth-of-type(2) a {
     margin-right: 1rem;
-} 
+}
 
 .arvoreLinksContainer div {
     display: flex;
@@ -208,7 +265,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
 
 .arvoreLinksContainer div a {
     color: #FFF;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 #arvore {
@@ -221,7 +278,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     gap: 1rem;
     margin: 1rem 0;
 }
@@ -231,23 +288,25 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-.pacoteMediterraneaContainer, #e-booksAvulso {
+.pacoteMediterraneaContainer,
+#e-booksAvulso {
     min-height: 65vh;
-    border-radius: 16px; 
+    border-radius: 16px;
     padding: 1rem;
     background-color: #FF914D;
     margin: 1rem 0;
 }
 
-.pacoteMediterraneaContainer h2, #e-booksAvulso h2 {
+.pacoteMediterraneaContainer h2,
+#e-booksAvulso h2 {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     margin: 1rem 0 .5rem 0;
-    color: #FFF;  
+    color: #FFF;
     line-height: 40px;
 }
 
@@ -255,20 +314,22 @@ div#e-booksAvulso h2 {
     margin: 2rem 0;
 }
 
-.pacoteMediterraneaContainer p, #e-booksAvulso p {
-    color: #FFF; 
+.pacoteMediterraneaContainer p,
+#e-booksAvulso p {
+    color: #FFF;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-#pacoteMediterranea, .e-booksContainer {
+#pacoteMediterranea,
+.e-booksContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;     
-    
+    gap: 1rem;
+
 }
 
 .e-booksCard {
@@ -276,7 +337,7 @@ div#e-booksAvulso h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;
     background-color: #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 1rem;
@@ -300,15 +361,16 @@ div#e-booksAvulso h2 {
     margin-top: 1rem;
 }
 
-.pacoteMediterraneaContainer a, #e-booksAvulso a {
-    width: 320px;    
+.pacoteMediterraneaContainer a,
+#e-booksAvulso a {
+    width: 320px;
     text-decoration: none;
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 700;
     background-color: #228B22;
     border-radius: 8px;
-    padding: 1rem;   
+    padding: 1rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -324,7 +386,7 @@ div#e-booksAvulso a {
 
 .e-booksCard img {
     width: 150px;
-    height: 200px;    
+    height: 200px;
 }
 
 #blogApresentacao {
@@ -333,12 +395,13 @@ div#e-booksAvulso a {
     padding: 1rem;
 }
 
-#blogApresentacao h1, .receitasArtigos h2.receitastitulo {
+#blogApresentacao h1,
+.receitasArtigos h2.receitastitulo {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: .2rem;
-    color: #FF914D;    
+    color: #FF914D;
 }
 
 article.receitasArtigos h2.receitastitulo {
@@ -354,7 +417,7 @@ article.receitasArtigos h2.receitastitulo {
     display: flex;
     gap: 6rem;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .navegacaoReceitas .pagination .pages div {
@@ -365,10 +428,10 @@ article.receitasArtigos h2.receitastitulo {
 }
 
 .navegacaoReceitas .pagination .pages a {
-   margin: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #oferta .precoCheio {
@@ -376,12 +439,12 @@ article.receitasArtigos h2.receitastitulo {
 }
 
 #oferta .preco {
-   font-size: 4rem; 
-   margin-bottom: 1rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 
 .caloriasEnviar {
-    align-self: center;    
+    align-self: center;
 }
 
 #secaoAgradecimentoContato {
@@ -391,7 +454,7 @@ article.receitasArtigos h2.receitastitulo {
 
 #anuncieFormulario {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -399,7 +462,8 @@ article.receitasArtigos h2.receitastitulo {
     font-weight: 500;
 }
 
-#anuncieFormulario input, #anuncieFormulario textarea{
+#anuncieFormulario input,
+#anuncieFormulario textarea {
     border: 1px solid #228B22;
     min-width: 500px;
 }
@@ -422,9 +486,13 @@ article.receitasArtigos h2.receitastitulo {
     display: none;
 }
 
-#midia, #acao, #vantagens, #garantia, .secaoDepoimentos {
+#midia,
+#acao,
+#vantagens,
+#garantia,
+.secaoDepoimentos {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding:  0 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     margin-bottom: 1rem;
     border-radius: 16px;
 }
@@ -441,9 +509,9 @@ article.receitasArtigos h2.receitastitulo {
 
 .posicaoFixa #calorias {
     position: fixed;
-    right: 0;   
+    right: 0;
     background-color: #FF914D;
-    background-image: url(../images/bg01.png); 
+    background-image: url(../images/bg01.png);
 }
 
 .paginaConstrucao {
@@ -684,7 +752,7 @@ article.receitasArtigos h2.receitastitulo {
     font-size: 16px;
     text-align: left;
     background-image: url("../images/bg01.png");
-    border: 1px solid #228B22;    
+    border: 1px solid #228B22;
 }
 
 #imc form {
@@ -857,7 +925,8 @@ input {
     margin: 2rem auto;
 }
 
-#imcCel form #botaoImc, #anuncieFormularioBtn{
+#imcCel form #botaoImc,
+#anuncieFormularioBtn {
     color: #FFF;
     padding: .5rem;
     border-radius: 4px;
@@ -932,9 +1001,7 @@ input {
 
 }
 
-@media screen and (min-width: 737px) {
-
-}
+@media screen and (min-width: 737px) {}
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -1150,7 +1217,7 @@ input {
 
     #oferta .ofertaTitulo {
         width: 100%;
-      
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1209,11 +1276,11 @@ input {
 
     .capaIpad {
         display: block;
-    }    
+    }
 
     #e-books .bonusConteiner {
         margin: 1rem 0 0 0;
-    }  
+    }
 
     #protegida {
         margin-right: 11rem;
@@ -1254,11 +1321,11 @@ input {
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
 
-    #content.indexContainer {        
+    #content.indexContainer {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     #mediterranea h4 {
@@ -1279,7 +1346,7 @@ input {
         font-size: 1rem;
     }
 
-   
+
 
     html body p {
         font-size: 16px;
@@ -1487,7 +1554,7 @@ input {
     #caloriasFullPage {
         display: flex;
         flex-direction: column;
-        justify-content: center;        
+        justify-content: center;
     }
 
     #caloriasFullPage #formularioCalorias {
@@ -1503,7 +1570,7 @@ input {
     }
 
     #calorias form,
-   
+
 
     #caloriasFullPage #formularioCalorias select {
         width: 100%;
@@ -1683,7 +1750,7 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {     
+@media screen and (max-width: 736px) {
     #redesSociais.redesSociaisMed-Slim {
         display: flex;
     }
@@ -1714,9 +1781,10 @@ input {
 
     #arvoreLinksWrapper h2 {
         margin-top: .8rem;
-    }  
+    }
 
-    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+    #arvoreLinksWrapper h3,
+    .arvoreLinksContainer div i {
         text-align: center;
         margin-top: .8rem;
     }
@@ -1724,7 +1792,7 @@ input {
     .arvoreLinksContainer div:last-child a {
         margin-right: 0;
     }
-    
+
     #arvore .displayDestop {
         display: none;
     }
@@ -1732,9 +1800,9 @@ input {
     #arvore .arvoreLinksContainer .displayCel {
         display: flex;
         align-items: center;
-        width: 200px;  
-        height: 40px;   
-    } 
+        width: 200px;
+        height: 40px;
+    }
 
     .arvoreLinksContainer div:nth-of-type(2) a {
         margin-right: 20px;
@@ -1742,15 +1810,15 @@ input {
 
     #arvore .arvoreLinksContainer .displayCel i {
         margin-bottom: .6rem;
-    }   
-    
+    }
+
     .arvoreLinksContainer div {
         min-width: 200px;
     }
 
-    .receita header h1 {        
+    .receita header h1 {
         font-size: 1.5rem;
-        line-height: 30px;        
+        line-height: 30px;
     }
 
     #secaoRecomendados.box.post {
@@ -1760,9 +1828,9 @@ input {
     .navegacaoReceitas .pagination .pages {
         display: flex;
         justify-content: center;
-        align-items: center;          
+        align-items: center;
         margin: 0;
-    } 
+    }
 
     #recomendados {
         flex-direction: column;
@@ -1772,7 +1840,7 @@ input {
     #nav .liCalculadora {
         display: flex;
     }
-    
+
     #e-bookGratis a.botaoBaixarGratis {
         margin-top: 1rem;
     }
@@ -1842,7 +1910,7 @@ input {
         margin: 1rem 0;
         justify-content: space-around;
         cursor: pointer;
-       
+
     }
 
     #icones a {
@@ -1995,7 +2063,7 @@ input {
 
     #oferta .ofertaTitulo {
         width: 100%;
-        height: 70px;      
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2003,8 +2071,8 @@ input {
 
     #protegida {
         width: 100%;
-        text-align: center;      
-        
+        text-align: center;
+
     }
 
     .e-booksTitulo {
@@ -2114,9 +2182,10 @@ input {
 
     #arvoreLinksWrapper h2 {
         margin-top: .8rem;
-    }  
+    }
 
-    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+    #arvoreLinksWrapper h3,
+    .arvoreLinksContainer div i {
         text-align: center;
         margin-top: .8rem;
     }
@@ -2124,7 +2193,7 @@ input {
     .arvoreLinksContainer div:last-child a {
         margin-right: 0;
     }
-    
+
     #arvore .displayDestop {
         display: none;
     }
@@ -2132,18 +2201,18 @@ input {
     #arvore .arvoreLinksContainer .displayCel {
         display: flex;
         align-items: center;
-        width: 200px;  
-        height: 40px;   
-    } 
+        width: 200px;
+        height: 40px;
+    }
 
     div#content.indexContainer {
         margin: 0;
     }
-    
+
     #arvore .arvoreLinksContainer .displayCel i {
         margin-bottom: .6rem;
-    }   
-    
+    }
+
     .arvoreLinksContainer div {
         min-width: 200px;
     }

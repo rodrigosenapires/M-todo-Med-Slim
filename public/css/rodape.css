@@ -19,7 +19,11 @@
 #rodape h3 {
     color: #FF914D;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.2rem;    
+}
+
+#redesSociais h3, .redesSociais h3 {
+    margin-left: 2.45rem;
 }
 
 #contato {

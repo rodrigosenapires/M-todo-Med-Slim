@@ -1,0 +1,210 @@
+
+
+
+#med-slim-collection {
+    width: 100%;
+    border: 2px solid #FF914D;
+    background-color: rgba(255, 145, 77, 0.1);
+  }
+  
+  #med-slim-collection h3 {
+    font-size: 2.5rem;
+    color: #FF914D;
+  }
+  
+  #med-slim-collection .med-slim-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  #med-slim-collection .med-slim-item {
+    flex: 1;
+    text-align: center;
+    width: 400px; 
+  }
+  
+  #med-slim-collection .med-slim-item h4 {
+    font-size: 1.5rem;
+    height: 84px;
+    margin: 1rem 0;
+    color: #228B22;
+    font-weight: 700;
+  }
+  
+  #med-slim-collection .med-slim-item img {
+    max-width: 150px;
+    height: 200px;
+    border-radius: 16px;
+    
+  }
+
+  #med-slim-collection .med-slim-item img.livro2  {
+    height: 212px;
+    margin-bottom: 0;
+  }
+
+  #med-slim-collection .med-slim-item h4.tituloSemEspaco {
+    height: auto;
+  }
+
+  #med-slim-collection p {
+    font-size: 1.5rem;
+    color: #FF914D;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  /* Modificações para telas menores */
+  @media (max-width: 736px) {
+    #med-slim-collection .med-slim-items {
+      
+      align-items: center;
+    }
+
+    .med-slim-item h4 {
+        display: none;
+    }
+
+    #med-slim-collection h3 {
+        line-height: 45px;
+    }
+  }
+  
+
+#listaCategoriasProdutos {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 10px 5px rgba(255, 145, 77, 0.7) inset;
+    background-image: linear-gradient(rgba(255, 145, 77, 0.7), rgba(255, 145, 77, 0.7));
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.btnCompraProduto {
+    display: inline-block;
+    background-color: #FF914D;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s;
+  }
+  
+  .btnCompraProduto:hover {
+    background-color: #228B22;
+  }
+  
+
+.product h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #228B22;
+    font-weight: 700;
+}
+
+#listaCategoriasProdutos h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+.category-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.category-selection li {
+    background-color: #228B22;
+    color: #FFF;
+    padding: 0.5rem 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    list-style: none;
+}
+
+.category-selection li:hover {
+    background-color: #FF914D;
+    transform: scale(1.1);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    box-sizing: border-box;
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+    border: 2px solid #228B22;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 16px;
+}
+
+.product[data-category] {
+    display: none;
+}
+
+.product.show {
+    display: block;
+}
+
+/* Outros estilos do seu CSS */
+
+@media (max-width: 736px) {
+    .product {
+        width: 100%;
+        height: auto;        
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1300px) {
+    #content .propaganda-1Botao {
+        top: 785px;
+        left: 200px;
+    }
+
+    #content .propaganda0Botao {
+        top: 785px;
+        left: 628px;
+    }
+
+    #content .propaganda1Botao {
+        top: 1900px;
+        left: 225px;
+    }
+
+    
+}
