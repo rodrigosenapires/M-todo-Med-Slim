@@ -11,10 +11,6 @@
 @import url(tabela-sumario.css);
 @import url(loja-med-slim.css);
 
-body {
-    font-family: Arial, sans-serif;
-}
-
 /* Parceiros */
 #parceiros {
     display: flex;
