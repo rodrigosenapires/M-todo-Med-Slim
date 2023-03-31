@@ -11,6 +11,43 @@
 @import url(tabela-sumario.css);
 @import url(loja-med-slim.css);
 
+.galeriaImagensBanners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.Banner1 {
+    width: 160px;
+    height: 600px;
+}
+
+.Banner2 {
+    width: 250px;
+    height: 250px;
+}
+
+.Banner3 {
+    width: 300px;
+    height: 250px;
+}
+
+.Banner4 {
+    width: 336px;
+    height: 280px;
+}
+
+.Banner5 {
+    width: 468px;
+    height: 60px;
+}
+
+.Banner6 {
+    width: 768px;
+    height: 90px;
+}
+
+
 /* Parceiros */
 #parceiros {
     display: flex;
