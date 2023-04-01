@@ -259,8 +259,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     flex-direction: column;
     background-color: #FF914D;
     border-radius: 16px;
-    padding: 1rem;
-    margin-right: 12rem;
+    padding: 1rem;    
 }
 
 #arvoreLinksWrapper img {
@@ -1059,6 +1058,10 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+
+    div#arvoreLinksWrapper {               
+        margin-right: 12rem;
+    }
 
     .botaoAcao {
         margin: 4rem auto;
