@@ -1059,7 +1059,7 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
 
-    div#arvoreLinksWrapper {               
+    #content #arvoreLinksWrapper {               
         margin-right: 12rem;
     }
 
