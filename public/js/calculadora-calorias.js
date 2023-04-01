@@ -32,7 +32,7 @@ form.addEventListener("submit", (event) => {
   const gorduras = (calorias - (proteinas * 4) - (carboidratos * 4)) / 9;
 
   document.querySelector("#calculadoraVisor").innerHTML = `Você pode consumir até: 
-  ${calorias.toFixed(2)} calorias.
+  ${calorias.toFixed(2)} calorias/dia.
   `;
 
   // Limpa o visor da calculadora após 5 segundos
