@@ -2415,6 +2415,7 @@ ol li {
 #sidebar nav {
 	position: relative;
 	font-size: 0.9em;
+	margin-top: 1rem;
 }
 
 #sidebar section:before,
