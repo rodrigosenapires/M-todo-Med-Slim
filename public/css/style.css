@@ -11,7 +11,93 @@
 @import url(tabela-sumario.css);
 @import url(loja-med-slim.css);
 
+:root {
+    --verde: #228B22;
+    --laranja: #FF914D;
+    --branco: #FFF;
+}
 
+.posicaoFixa aside #calorias {
+    display: block;
+}
+
+#sidebar .propagandaMed {
+    margin-top: 6.35rem;
+    margin-left: 1rem;
+}
+
+.ebooksImgPreco h2 {
+    font-size: 2rem;
+    color: var(--verde);
+}
+
+#oferta p:first-child {
+    text-transform: uppercase;
+}
+
+#oferta p.destaque {
+    margin: 1.5rem 0;    
+}
+
+#content #rotinaExercicios div#vantagens {
+    margin-bottom: 6rem;
+}
+
+#vantagens h2 {
+    font-size: 2rem;    
+}
+
+#content #rotinaExercicios div.ebooksCard {
+    margin-top: 6rem;
+}
+
+div#garantia {
+    margin: 2rem 0;
+    box-shadow: none;
+    border: 2px solid var(--verde);
+}
+
+#oferta {
+    margin-top: 7rem;
+}
+
+#rotinaExercicios h1 {
+    line-height: 50px;
+}
+
+#rotinaExercicios .carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#rotinaExercicios .carrossel img {
+    width: 200px;
+}
+
+#e-bookSobre {
+    background-color: var(--verde);
+    border-radius: 16px;
+    padding: 1rem;
+    color: var(--branco);
+    margin: 6rem 0;
+}
+
+#e-bookSobre h2 {
+    font-size: 2.5rem;
+    color: var(--branco);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#e-bookSobre p {
+    margin: 1rem auto;
+}
+
+.propagandaMedPadrao {
+    display: none;
+}
 
 h2#logo #cabecalhoAcao {
     display: block;
