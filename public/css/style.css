@@ -10,6 +10,7 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 @import url(loja-med-slim.css);
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
 :root {
     --verde: #228B22;
@@ -61,8 +62,16 @@ div#garantia {
     margin-top: 7rem;
 }
 
-#rotinaExercicios h1 {
+#rotinaExercicios h1, #rotinaExercicios h2 {
     line-height: 50px;
+    font-family: 'Chewy', cursive;
+    color: var(--verde);
+}
+
+#rotinaExercicios h3 {
+    color: var(--laranja);    
+    font-size: 1.3rem;
+    font-family: 'Chewy', cursive;
 }
 
 #rotinaExercicios .carrossel {
@@ -1146,6 +1155,14 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+
+    #notificacao {
+        margin-left: 6rem;
+    }
+
+    div.posicaoFixa aside #calorias {
+        display: none;
+    }
 
     #content #arvoreLinksWrapper {               
         margin-right: 12rem;

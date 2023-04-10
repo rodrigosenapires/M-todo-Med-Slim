@@ -30,11 +30,11 @@ function exibirNotificacao() {
         vendas = ultimaVenda + 9;
         ultimaVenda = 0;
     } else if (contadorNotificacoes === 0) {
-        vendas = numeroAleatorio(28, 32);
+        vendas = numeroAleatorio(8, 11);
     } else if (contadorNotificacoes === 1) {
-        vendas = numeroAleatorio(33, 39);
+        vendas = numeroAleatorio(12, 15);
     } else if (contadorNotificacoes === 2) {
-        vendas = numeroAleatorio(39, 43);
+        vendas = numeroAleatorio(16, 19);
     } else if (contadorNotificacoes === 3) {
         vendas = numeroAleatorio(43, 53);
     } else {
@@ -42,15 +42,15 @@ function exibirNotificacao() {
     }
 
     notificacao.textContent = `${vendas} já compraram esse curso hoje!`;
-    notificacao.style.display = 'block';
+    notificacao.style.opacity = '1';
 
     ultimaVenda = vendas;
     contadorNotificacoes++;
     armazenarUltimaVenda(vendas);
 
     setTimeout(() => {
-        notificacao.style.display = 'none';
-    }, 5000);
+        notificacao.style.opacity = '0';
+    }, 10000);
 }
 
 setInterval(exibirNotificacao, 2.5 * 60 * 1000);

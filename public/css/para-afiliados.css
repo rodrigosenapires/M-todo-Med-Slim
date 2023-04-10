@@ -1,3 +1,9 @@
+:root {
+    --verde: #228B22;
+    --laranja: #FF914D;
+    --branco: #FFF;
+}
+
 footer#rodape.box.post.post-excerpt {
     display: flex;
     flex-direction: column;
@@ -61,13 +67,16 @@ a.botaoAcao {
     color: #FFF;
 }
 
-.vantagensTexto span, .textoMateriaisDivulgacao span, span.tituloReceita {
+.vantagensTexto span,
+.textoMateriaisDivulgacao span,
+span.tituloReceita {
     font-weight: 700;
     font-size: 1.2rem;
 }
 
 .vantagensTexto p,
-.textoAutores, .textoApresentacao p {
+.textoAutores,
+.textoApresentacao p {
     margin-bottom: 1rem;
 }
 
@@ -104,27 +113,34 @@ a.botaoAcao {
     color: #228B22;
 }
 
-#regrasProduto, #contraIndicacoes {
+#regrasProduto,
+#contraIndicacoes {
     background-color: #228B22;
     color: #FFF;
     border-radius: 16px;
     padding: 1rem;
 }
 
-#regrasProduto span, #contraIndicacoes span, .conteudo-textual span {
+#regrasProduto span,
+#contraIndicacoes span,
+.conteudo-textual span {
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 #autores h2,
-#regrasProduto h1, #contraIndicacoes h1, .textoApresentacao h1 {
+#regrasProduto h1,
+#contraIndicacoes h1,
+.textoApresentacao h1 {
     font-size: 2rem;
     font-weight: 700;
     margin: 2rem 0;
     text-align: center;
 }
 
-#regrasProduto li, #contraIndicacoes li, .textoApresentacao li {
+#regrasProduto li,
+#contraIndicacoes li,
+.textoApresentacao li {
     margin-bottom: 1rem;
 }
 
@@ -167,22 +183,22 @@ div.textoApresentacao h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.3s;
     width: 50%;
-  }
+}
 
-  .ancoraCustomizada:hover {
+.ancoraCustomizada:hover {
     background-color: #1C661B;
     transform: scale(1.05);
-  }
+}
 
-  .ancoraCustomizada:last-child {
+.ancoraCustomizada:last-child {
     margin-bottom: 0;
-  }
+}
 
-  .divulgacaoContainer {
+.divulgacaoContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    gap: 2rem;       
+    justify-content: center;
+    gap: 2rem;
 }
 
 #criativosFacebook {
@@ -197,7 +213,8 @@ div.textoApresentacao h1 {
     width: 350px;
 }
 
-.arte-pronta, .imagem {
+.arte-pronta,
+.imagem {
     width: 100%;
     height: auto;
     border-radius: 5px;
@@ -214,12 +231,12 @@ div.textoApresentacao h1 {
     display: flex;
     justify-content: center;
     background-color: #FF914D;
-    color: #FFF;    
+    color: #FFF;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
-    font-weight: 700;    
+    font-weight: 700;
     transition: background-color 0.3s;
 }
 
@@ -251,16 +268,16 @@ div.textoApresentacao h1 {
     margin-top: 5rem;
 }
 
-.ativo {    
-    border: 1px solid #1C661B; 
+.ativo {
+    border: 1px solid #1C661B;
     border-bottom: none;
-    border-radius: 5px 5px 0 0;    
+    border-radius: 5px 5px 0 0;
     transition: 0.2s;
 }
 
 nav li:active {
     background-color: #1C661B;
-    transform: translateY(2px);    
+    transform: translateY(2px);
 }
 
 .criativoCopys li {
@@ -271,15 +288,16 @@ nav li:active {
     margin: 1rem 0;
 }
 
-.criativoCopys h2, .criativoInsta h {
+.criativoCopys h2,
+.criativoInsta h {
     font-size: 1.5rem;
     color: #228B22;
     text-align: center;
-    margin-bottom: 2rem;    
+    margin-bottom: 2rem;
 }
 
 #copys {
-    display: flex;    
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
@@ -313,14 +331,17 @@ h1 {
     cursor: pointer;
 }
 
-#galeriaMediterraneaContainer, #galeriaVidaSaudavelContainer, #galeriaReceitasContainer {
+#galeriaMediterraneaContainer,
+#galeriaVidaSaudavelContainer,
+#galeriaReceitasContainer {
     background-color: #228B22;
     padding: 1rem;
     border-radius: 16px;
     margin: 2rem auto;
 }
 
-#galeriaTreinosContainer, #galeriaPerdaPesoContainer {
+#galeriaTreinosContainer,
+#galeriaPerdaPesoContainer {
     background-color: #FF914D;
     padding: 1rem;
     border-radius: 16px;
@@ -335,12 +356,15 @@ h1 {
     margin: 4rem auto;
 }
 
-#bancoImagens h2, #galeriaVidaSaudavelContainer h2, #galeriaPerdaPesoContainer h2, #galeriaReceitasContainer h2 {
+#bancoImagens h2,
+#galeriaVidaSaudavelContainer h2,
+#galeriaPerdaPesoContainer h2,
+#galeriaReceitasContainer h2 {
     font-size: 2rem;
     font-weight: 700;
     color: #FFF;
     text-align: center;
-    margin: 1rem 0;    
+    margin: 1rem 0;
 }
 
 #secaoVideos {
@@ -352,15 +376,15 @@ h1 {
 
 .secaoVideosCabecalho {
     background-color: #228B22;
-    padding: 1rem;   
-    margin-bottom: 1rem; 
+    padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 5px;
 }
 
 div.secaoVideosCabecalho h1 {
     font-size: 2rem;
     color: #FFF;
-    text-align: center;    
+    text-align: center;
 }
 
 .galeriaVideos {
@@ -371,7 +395,7 @@ div.secaoVideosCabecalho h1 {
 
 .video {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     border-radius: 5px;
     padding: 15px;
 }
@@ -383,7 +407,7 @@ div.secaoVideosCabecalho h1 {
 }
 
 .video h3 {
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
     text-align: center;
     color: #FFF;
 }
@@ -423,7 +447,7 @@ main #secaoPersona {
     padding: 1rem;
     border-radius: 16px;
     color: #FFF;
-    background-color:  #228B22;    
+    background-color: #228B22;
 }
 
 .conteudoParaPersona h2 {
@@ -438,7 +462,7 @@ main #secaoPersona {
 }
 
 #espacamentoFace5 {
-   margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 #espacamentoFace7 {
@@ -571,57 +595,66 @@ div.tempo {
     text-transform: uppercase;
 }
 
+#sidebar.guiaExercicios nav:after {
+    display: none;
+}
+
 #notificacao {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    display: none;
-    padding: 15px 20px;
-    background-color: #228B22;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 2rem;
+    background-color: var(--laranja);
     color: #FFF;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 700;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-  }
-  
-  #notificacao.posicaoDiferente {
+    transition: opacity 1s;
+}
+
+
+
+
+#notificacao.posicaoDiferente {
     right: 265px;
     width: 175px;
-  }
-  
-  .imagens-bnt-laranja {
+}
+
+.imagens-bnt-laranja {
     width: 50%;
     margin: 1rem auto;
     font-size: 1.4rem;
-  }
+}
 
-  .imagens-bnt-verde {
+.imagens-bnt-verde {
     background-color: #228B22;
     width: 50%;
     margin: 1rem auto;
     font-size: 1.4rem;
-  }
+}
 
-  div.video {
+div.video {
     background-color: #FF914D;
-  }
+}
 
-  section#secaoPersona .conteudoParaPersona h2 {
+section#secaoPersona .conteudoParaPersona h2 {
     color: #FFF;
     padding-bottom: 1rem;
-  }
+}
 
-  .conteudoParaPersona li {
+.conteudoParaPersona li {
     font-size: 1rem;
-  }
+}
 
-  #provasSociais .video {
+#provasSociais .video {
     background-color: #FFF;
-  }
+}
 
-  #contador-externo {
+#contador-externo {
     background-color: #228B22;
     display: flex;
     flex-direction: column;
@@ -637,7 +670,7 @@ div.tempo {
     font-size: 1.2rem;
     margin-right: 15px;
     margin-bottom: 15px;
-    
+
 }
 
 #contadorContainer {
@@ -663,10 +696,13 @@ div.tempo {
     font-size: 0.8rem;
 }
 
-  
- 
+
+
 /* Mobile */
-@media screen and (max-width: 736px) { 
+@media screen and (max-width: 736px) {
+    #notificacao {
+        width: 90%;
+    }
 
     #contador-externo {
         margin-top: 3rem;
@@ -691,7 +727,7 @@ div.tempo {
         margin: 1rem auto;
     }
 
-   #sobre li.redesSociasCel {
+    #sobre li.redesSociasCel {
         width: 90px;
         display: flex;
         flex-wrap: wrap;
@@ -704,8 +740,8 @@ div.tempo {
 
     .faceDesk {
         display: none;
-    } 
-    
+    }
+
     #titleBar .title {
         display: none;
     }
@@ -728,7 +764,8 @@ div.tempo {
         display: block;
     }
 
-    #bancoImagens h2, #contraIndicacoes h1 {
+    #bancoImagens h2,
+    #contraIndicacoes h1 {
         line-height: 35px;
         margin: 0 auto;
     }
@@ -741,7 +778,7 @@ div.tempo {
         font-size: 1rem;
     }
 
-    .textoContraIndicacoes{
+    .textoContraIndicacoes {
         font-size: 1rem;
     }
 
@@ -765,7 +802,7 @@ div.tempo {
     .conteudoParaPersona h2 {
         line-height: 30px;
     }
-    
+
     .conteudoParaPersona h2 {
         padding-bottom: 10px;
     }
@@ -786,83 +823,84 @@ div.tempo {
     .espacamentoPt2 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt4 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt6 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt8 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt10 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt12 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt13 {
         margin-top: 0;
     }
-    
+
     #espacamentoIt1 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt3 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt5 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST1 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST2 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST3 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST4 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST5 {
-        margin-top: 0;;
+        margin-top: 0;
+        ;
     }
-    
+
     .espacamentoFace1 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace2 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace3 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace4 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace5 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace6 {
         margin-top: 0;
     }
@@ -871,7 +909,7 @@ div.tempo {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-      }
+    }
 }
 
 /* IPAD */
@@ -886,99 +924,101 @@ div.tempo {
     section#secaoPersona .conteudoParaPersona h2 {
         color: #FFF;
         padding-bottom: 1rem;
-      }
+    }
+
     #oferta div#notificacao.posicaoDiferente {
         top: 50%;
         left: 60%;
         transform: translate(-50%, -50%);
         width: 400px;
-      }
+    }
 
-      article.box.post h2 {
+    article.box.post h2 {
         color: #228B22;
         font-size: 1.8rem;
-      }
+    }
 
-      .espacamentoPt2 {
+    .espacamentoPt2 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt4 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt6 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt8 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt10 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt12 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt13 {
         margin-top: 0;
     }
-    
+
     #espacamentoIt1 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt3 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt5 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST1 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST2 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST3 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST4 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST5 {
-        margin-top: 0;;
+        margin-top: 0;
+        ;
     }
-    
+
     .espacamentoFace1 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace2 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace3 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace4 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace5 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace6 {
         margin-top: 0;
     }
@@ -989,7 +1029,7 @@ div.tempo {
 }
 
 /* Laptop */
-@media screen and (min-width: 1400px) and (max-width: 1680px){
+@media screen and (min-width: 1400px) and (max-width: 1680px) {
     div#content.indexContainer.espacamentoPaginaAfiliadosDesk {
         margin-left: 32vh;
     }
@@ -1001,83 +1041,84 @@ div.tempo {
     .espacamentoPt2 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt4 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt6 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt8 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt10 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt12 {
         margin-top: 0;
     }
-    
+
     .espacamentoPt13 {
         margin-top: 0;
     }
-    
+
     #espacamentoIt1 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt3 {
         margin-top: 0;
     }
-    
+
     .espacamentoIt5 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST1 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST2 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST3 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST4 {
         margin-top: 0;
     }
-    
+
     .espacamentoINST5 {
-        margin-top: 0;;
+        margin-top: 0;
+        ;
     }
-    
+
     .espacamentoFace1 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace2 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace3 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace4 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace5 {
         margin-top: 0;
     }
-    
+
     .espacamentoFace6 {
         margin-top: 0;
     }
