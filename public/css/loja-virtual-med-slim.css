@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+div#content {
+    background-color: var(--cinza-claro);
+}
+
 .colecaoTitulo {
     line-height: 25px;
 }
@@ -42,6 +46,7 @@ body {
     border: 2px solid var(--verde);
     border-radius: 16px;
     padding: 1rem;
+    background-color: var(--branco);
 }
 
 #colecaoE-books p {

@@ -16,6 +16,11 @@
     --verde: #228B22;
     --laranja: #FF914D;
     --branco: #FFF;
+    --cinza-claro: #F2F2F2;
+}
+
+body, div#content {
+    background-color: var(--cinza-claro);
 }
 
 .posicaoFixa aside #calorias {
