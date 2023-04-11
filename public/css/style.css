@@ -28,7 +28,40 @@ body, div#content {
     background-color: var(--cinza-claro);
 }
 
-div#content
+#audio-control {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    z-index: 100;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bg-video::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Ajuste a opacidade conforme necessário */
+    z-index: -99;
+  }
+  
 
 #acao, #midia, .secaoDepoimentos {
     background-color: var(--branco);
@@ -374,7 +407,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #228B22;
+    background-color: transparent;
     height: 100vh;
 }
 
@@ -384,6 +417,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     align-items: center;
     flex-direction: column;
     background-color: #FF914D;
+    opacity: .7;
     border-radius: 16px;
     padding: 1rem;    
 }
@@ -404,6 +438,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     color: #FFF;
     font-size: 1.5rem;
     text-align: center;
+    font-family: inherit !important;
 }
 
 #arvoreLinksWrapper h3,
