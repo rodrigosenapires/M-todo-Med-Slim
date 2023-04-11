@@ -1,29 +1,20 @@
-const audioControl = document.getElementById("audio-control");
 const bgVideo = document.getElementById("bg-video");
-
-function onYouTubeIframeAPIReady() {
-  bgVideo.player = new YT.Player("bg-video", {
-    events: {
-      onReady: function (event) {
-        event.target.setVolume(0);
-      }
-    }
-  });
-}
+const audioControl = document.getElementById("audio-control");
 
 audioControl.addEventListener("click", () => {
-  if (bgVideo.player.isMuted()) {
-    bgVideo.player.unMute();
+  if (bgVideo.muted) {
+    bgVideo.muted = false;
     audioControl.classList.remove("fa-volume-mute");
     audioControl.classList.add("fa-volume-up");
   } else {
-    bgVideo.player.mute();
+    bgVideo.muted = true;
     audioControl.classList.remove("fa-volume-up");
     audioControl.classList.add("fa-volume-mute");
   }
 });
 
-const tag = document.createElement("script");
-tag.src = "https://www.youtube.com/iframe_api";
-const firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+bgVideo.addEventListener("ended", function () {
+  bgVideo.play();
+});
+
+bgVideo.play();
