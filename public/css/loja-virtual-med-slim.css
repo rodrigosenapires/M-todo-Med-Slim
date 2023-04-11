@@ -89,7 +89,7 @@ div#content {
     margin-bottom: 10px;
 }
 
-ul#listaCategoriasProdutos {
+#listaCategoriasProdutos {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -130,7 +130,8 @@ ul#listaCategoriasProdutos li:hover {
     text-align: center;
 }
 
-.product img, #colecaoE-books img {
+.product img,
+#colecaoE-books img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -151,9 +152,42 @@ ul#listaCategoriasProdutos li:hover {
     text-decoration: none;
     border-radius: 10px;
     transition: background-color 0.3s;
-    line-height: 20px;    
+    line-height: 20px;
 }
 
 .btnSaibaMais:hover {
     background-color: var(--verde);
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+
+    #rodape {
+        margin-top: 2rem;
+    }
+
+    .product h3 {
+        line-height: 20px;
+    }
+
+    #colecaoE-books p {
+        line-height: 20px;
+        text-align: center;
+    }
+
+    #colecaoE-books h3 {
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+
+    ul#listaCategoriasProdutos li {
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    ul#listaCategoriasProdutos {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
 }
