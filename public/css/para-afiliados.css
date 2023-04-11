@@ -10,7 +10,7 @@ footer#rodape.box.post.post-excerpt {
     justify-content: space-evenly;
     background-color: #228B22;
     padding: 1rem;
-    margin-top: 15rem;
+    margin-top: 2rem;
 }
 
 a.botaoAcao {
@@ -700,6 +700,10 @@ section#secaoPersona .conteudoParaPersona h2 {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+    footer#rodape.box.post.post-excerpt {
+        margin-top: 2rem;
+    }
+    
     #notificacao {
         width: 90%;
     }

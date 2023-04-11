@@ -19,8 +19,31 @@
     --cinza-claro: #F2F2F2;
 }
 
+body h1,
+body h2 {
+    font-family: 'Chewy', cursive !important;
+}
+
 body, div#content {
     background-color: var(--cinza-claro);
+}
+
+div#content
+
+#acao, #midia, .secaoDepoimentos {
+    background-color: var(--branco);
+}
+
+#e-books div.e-booksTitulo h2 {
+    color: var(--branco);
+}
+
+#nav li {
+    width: 190px;
+}
+
+#vantagens, #oferta {
+    background-color: var(--branco);
 }
 
 .posicaoFixa aside #calorias {
@@ -59,12 +82,13 @@ body, div#content {
 
 div#garantia {
     margin: 2rem 0;
-    box-shadow: none;
-    border: 2px solid var(--verde);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: var(--branco);
 }
 
 #oferta {
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 #rotinaExercicios h1, #rotinaExercicios h2 {
@@ -1918,6 +1942,32 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+
+    #content #rotinaExercicios div#vantagens {
+        margin-bottom: 2rem;
+    }
+
+    #oferta {
+        margin-top: 2rem;
+    }
+
+    div#e-bookSobre {
+        margin: 2rem 0;
+    }
+
+    #oferta div.tempo p {
+        font-size: 1.2rem;
+    }
+
+    #rotinaExercicios h1, #rotinaExercicios h2 {
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+
+    #rotinaExercicios h3 {
+        text-align: center;
+    }
+    
     #redesSociais.redesSociaisMed-Slim {
         display: flex;
     }

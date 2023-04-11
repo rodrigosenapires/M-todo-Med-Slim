@@ -1,3 +1,10 @@
+:root {
+    --verde: #228B22;
+    --laranja: #FF914D;
+    --branco: #FFF;
+    --cinza-claro: #F2F2F2;
+}
+
 #oferta .ofertaTitulo {
     width: 100%;
 }
@@ -24,13 +31,14 @@
 #vendas #acao h1,
 #vantagens h2,
 #provasSociais h2, #conclusao h2 {
-    color: #228b22;
+    color: var(--laranja);
     font-family: 'Playfair Display', serif;    
     font-weight: 700;
     text-align: center;  
     line-height: 45px;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 2rem;
 }
 
 #video {
@@ -47,7 +55,7 @@
     display: block;
     max-width: 100%;
     margin: 2rem auto;
-    background-color: red;
+    background-color: var(--verde);
     background-image: url(images/bg01.png);
     padding: .5rem;
     font-size: 1.5rem;
@@ -209,7 +217,7 @@
 
 #provasSociais h2 {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #provasSociais p {
@@ -253,7 +261,7 @@
 .depoimentos .depoimentosTitulo {
     margin: 2rem 0 1rem 0;
     text-align: left;
-    color: #FF914D;
+    color: var(--verde);
 }
 
 .relatos {

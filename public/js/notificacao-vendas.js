@@ -27,18 +27,18 @@ function exibirNotificacao() {
     let vendas;
 
     if (ultimaVenda !== 0) {
-        vendas = ultimaVenda + 9;
+        vendas = ultimaVenda + 4; // Valor ajustado
         ultimaVenda = 0;
     } else if (contadorNotificacoes === 0) {
-        vendas = numeroAleatorio(8, 11);
+        vendas = numeroAleatorio(3, 6); // Valores ajustados
     } else if (contadorNotificacoes === 1) {
-        vendas = numeroAleatorio(12, 15);
+        vendas = numeroAleatorio(7, 10); // Valores ajustados
     } else if (contadorNotificacoes === 2) {
-        vendas = numeroAleatorio(16, 19);
+        vendas = numeroAleatorio(11, 14); // Valores ajustados
     } else if (contadorNotificacoes === 3) {
-        vendas = numeroAleatorio(43, 53);
+        vendas = numeroAleatorio(15, 18); // Valores ajustados
     } else {
-        vendas = ultimaVenda + 7;
+        vendas = ultimaVenda + 3; // Valor ajustado
     }
 
     notificacao.textContent = `${vendas} já compraram esse curso hoje!`;
