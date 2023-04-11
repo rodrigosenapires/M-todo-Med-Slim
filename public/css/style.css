@@ -28,26 +28,26 @@ body, div#content {
     background-color: var(--cinza-claro);
 }
 
-#audio-control {
+.audio-control-container {
     position: fixed;
     top: 20px;
     left: 20px;
-    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--laranja);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 100;
-    color: #fff;
     cursor: pointer;
   }
   
-
   #audio-control {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 24px;
-    z-index: 100;
     color: #fff;
-    cursor: pointer;
+    font-size: 24px;
   }
+  
   
   .bg-video {
     position: fixed;
@@ -425,7 +425,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     align-items: center;
     flex-direction: column;
     background-color: #FF914D;
-    opacity: .7;
+    opacity: .9;
     border-radius: 16px;
     padding: 1rem;    
 }
