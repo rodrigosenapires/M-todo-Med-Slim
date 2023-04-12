@@ -31,7 +31,7 @@ div#content {
 }
 
 .colecaoImgs {
-    margin: 1rem 0 0 1.5rem;
+    margin: 1rem 0 0 3rem;
 }
 
 .colecaoBnt {
@@ -167,6 +167,7 @@ ul#listaCategoriasProdutos li:hover {
 /* Mobile */
 @media screen and (max-width: 736px) {
 
+    
     #rodape {
         margin-top: 2rem;
     }

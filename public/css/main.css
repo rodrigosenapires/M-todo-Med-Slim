@@ -3079,8 +3079,8 @@ div#content div.inner {
 
 	/* Content */
 	#content.indexContainer {		
-		padding: 1em 20px 20px;
-		margin: 50px 0 0 2rem;
+		padding: 0;
+		margin: 0;
 	}
 
 	/* Sidebar */

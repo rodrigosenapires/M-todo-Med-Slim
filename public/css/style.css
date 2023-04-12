@@ -2057,6 +2057,8 @@ input {
 /* Mobile */
 @media screen and (max-width: 736px) {
 
+    
+
     div#content .inner{
         width: 100vw;
     }
