@@ -30,13 +30,10 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
-div#content.metodoEmagrecimento {
+div#content.metodoEmagrecimento, div#content.contentGuiaExerciciosCasa,
+div#content.contentParaAfiliados {
     left: 390px;
-}
-
-div#content.contentGuiaExerciciosCasa {
-    left: 390px;
-}
+} 
 
 .e-bookGratisContainer div#content {
     left: 385px;
