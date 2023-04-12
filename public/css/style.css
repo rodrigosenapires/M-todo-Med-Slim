@@ -30,10 +30,16 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+.posicaoFixa.posicaoFixaMetodo section#calorias {
+    display: none;
+}
+
 div#content.metodoEmagrecimento, div#content.contentGuiaExerciciosCasa,
 div#content.contentParaAfiliados {
     left: 390px;
 } 
+
+
 
 .e-bookGratisContainer div#content {
     left: 385px;
