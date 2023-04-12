@@ -30,12 +30,16 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+#rodape.box.post.post-excerpt.displayMS {
+    display: none;
+}
+
 .posicaoFixa.posicaoFixaMetodo section#calorias {
     display: none;
 }
 
-div#content.metodoEmagrecimento, div#content.contentGuiaExerciciosCasa,
-div#content.contentParaAfiliados {
+#content.metodoEmagrecimento, #content.contentGuiaExerciciosCasa,
+#content.contentParaAfiliados {
     left: 390px;
 } 
 
@@ -1256,6 +1260,10 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+    div#content.indexContainer.metodoEmagrecimento, 
+    div#content.indexContainer.contentGuiaExerciciosCasa, div#content.indexContainer.contentParaAfiliados {
+        left: 0;
+    }
 
     #sidebar {
         width: 220px;
@@ -2034,16 +2042,31 @@ input {
 
 }
 
+
+
+@media screen and (min-width: 1200px) and (max-width: 1460px) {
+    div#content.indexContainer.metodoEmagrecimento, 
+    div#content.indexContainer.contentGuiaExerciciosCasa, div#content.indexContainer.contentParaAfiliados {
+        left: 120px;
+    }
+}
+
 /* Narrower / Mais Estrito */
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
 @media screen and (max-width: 736px) {
 
-    div#content {
-        left: 0;
+    div#content .inner{
+        width: 100vw;
     }
-
+  
+    div#content, div#content.indexContainer.metodoEmagrecimento, 
+    div#content.indexContainer.contentGuiaExerciciosCasa, div#content.indexContainer.contentParaAfiliados {
+        left: 0;
+        padding: 0;
+    }
+  
     #content #rotinaExercicios div#vantagens {
         margin-bottom: 2rem;
     }
@@ -2487,6 +2510,11 @@ input {
 
 /* Off-Canvas Sidebar / Barra lateral fora da tela*/
 @media screen and (max-width: 1000px) {
+    div#content.indexContainer.metodoEmagrecimento, 
+    div#content.indexContainer.contentGuiaExerciciosCasa, div#content.indexContainer.contentParaAfiliados {
+        left: 0;
+    }
+
     #titleBar {
         display: block;
     }
