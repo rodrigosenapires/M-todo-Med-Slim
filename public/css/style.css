@@ -30,7 +30,15 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+.e-bookGratisContainer div#content {
+    left: 385px;
+}
+
 div#content {
+    left: 280px;
+}
+
+div#content.arvoreLinks {
     left: 0;
 }
 

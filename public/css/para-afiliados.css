@@ -2,6 +2,8 @@
     --verde: #228B22;
     --laranja: #FF914D;
     --branco: #FFF;
+    --cinza-claro: #F2F2F2;
+    --fonte-principal: 'Chewy', cursive;
 }
 
 footer#rodape.box.post.post-excerpt {
