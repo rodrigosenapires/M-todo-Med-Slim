@@ -25,8 +25,13 @@ body h2 {
     font-family: 'Chewy', cursive !important;
 }
 
-body, div#content {
+body,
+div#content {
     background-color: var(--cinza-claro);
+}
+
+div#content {
+    left: 280px;
 }
 
 .audio-control-container {
@@ -42,24 +47,24 @@ body, div#content {
     align-items: center;
     z-index: 100;
     cursor: pointer;
-  }
-  
-  #audio-control {
+}
+
+#audio-control {
     color: #fff;
     font-size: 24px;
-  }
-  
-  
-  .bg-video {
+}
+
+
+.bg-video {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .bg-video::after {
+}
+
+.bg-video::after {
     content: '';
     position: fixed;
     top: 0;
@@ -68,11 +73,13 @@ body, div#content {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: -99;
-  }
-  
-  
+}
 
-#acao, #midia, .secaoDepoimentos {
+
+
+#acao,
+#midia,
+.secaoDepoimentos {
     background-color: var(--branco);
 }
 
@@ -84,7 +91,8 @@ body, div#content {
     width: 190px;
 }
 
-#vantagens, #oferta {
+#vantagens,
+#oferta {
     background-color: var(--branco);
 }
 
@@ -107,7 +115,7 @@ body, div#content {
 }
 
 #oferta p.destaque {
-    margin: 1.5rem 0;    
+    margin: 1.5rem 0;
 }
 
 #content #rotinaExercicios div#vantagens {
@@ -115,7 +123,7 @@ body, div#content {
 }
 
 #vantagens h2 {
-    font-size: 2rem;    
+    font-size: 2rem;
 }
 
 #content #rotinaExercicios div.ebooksCard {
@@ -133,14 +141,15 @@ div#garantia {
     margin-top: 2rem;
 }
 
-#rotinaExercicios h1, #rotinaExercicios h2 {
+#rotinaExercicios h1,
+#rotinaExercicios h2 {
     line-height: 50px;
     font-family: 'Chewy', cursive;
     color: var(--verde);
 }
 
 #rotinaExercicios h3 {
-    color: var(--laranja);    
+    color: var(--laranja);
     font-size: 1.3rem;
     font-family: 'Chewy', cursive;
 }
@@ -428,7 +437,7 @@ div#redesSociais.redesSociaisMed-Slim div a i {
     background-color: #FF914D;
     opacity: .9;
     border-radius: 16px;
-    padding: 1rem;    
+    padding: 1rem;
 }
 
 #arvoreLinksWrapper img {
@@ -942,7 +951,7 @@ article.receitasArtigos h2.receitastitulo {
 }
 
 #content .inner:first-child {
-    width: 800px;
+    width: 100%;
 }
 
 #saibaMais {
@@ -1229,6 +1238,29 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
 
+    #sidebar {
+        width: 220px;
+    }
+
+    div#content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        left: -15px;
+        top: 20px;
+    }
+
+    div#content div.inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    div#content #loja {
+        margin: 0;
+    }
+
     #notificacao {
         margin-left: 6rem;
     }
@@ -1237,7 +1269,7 @@ input {
         display: none;
     }
 
-    #content #arvoreLinksWrapper {               
+    #content #arvoreLinksWrapper {
         margin-right: 12rem;
     }
 
@@ -1556,6 +1588,10 @@ input {
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
 
+    div#content {
+        left: 240px;
+    }
+
     #content.indexContainer {
         display: flex;
         align-items: center;
@@ -1805,8 +1841,6 @@ input {
     }
 
     #calorias form,
-
-
     #caloriasFullPage #formularioCalorias select {
         width: 100%;
         border: none;
@@ -1987,6 +2021,10 @@ input {
 /* Mobile */
 @media screen and (max-width: 736px) {
 
+    div#content {
+        left: 0;
+    }
+
     #content #rotinaExercicios div#vantagens {
         margin-bottom: 2rem;
     }
@@ -2003,7 +2041,8 @@ input {
         font-size: 1.2rem;
     }
 
-    #rotinaExercicios h1, #rotinaExercicios h2 {
+    #rotinaExercicios h1,
+    #rotinaExercicios h2 {
         line-height: 30px;
         font-size: 1.5rem;
     }
@@ -2011,7 +2050,7 @@ input {
     #rotinaExercicios h3 {
         text-align: center;
     }
-    
+
     #redesSociais.redesSociaisMed-Slim {
         display: flex;
     }
@@ -2476,5 +2515,23 @@ input {
 
     .arvoreLinksContainer div {
         min-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1461px) and (max-width: 1720px) {
+    .posicaoFixa aside #calorias {
+        display: none;
+    }
+
+    #nav li.liCalculadora {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+
+    #calorias form,
+    #caloriasFullPage #formularioCalorias select {
+        display: none;
     }
 }

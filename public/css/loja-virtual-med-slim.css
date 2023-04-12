@@ -3,6 +3,7 @@
     --laranja: #FF914D;
     --branco: #FFF;
     --cinza-claro: #F2F2F2;
+    --fonte-principal: 'Chewy', cursive;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 div#content {
     background-color: var(--cinza-claro);
+    margin-left: 10rem;
 }
 
 .colecaoTitulo {
@@ -52,13 +54,15 @@ div#content {
 #colecaoE-books p {
     color: var(--laranja);
     font-weight: 700;
+    
 }
 
 #colecaoE-books h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--verde);
     margin: 0 0 .5rem 0;
     font-weight: 700;
+    font-family: var(--fonte-principal);
 }
 
 #colecaoE-books img {
@@ -72,7 +76,7 @@ div#content {
 }
 
 #loja {
-    width: 90%;
+    
     margin: 0 auto;
     padding: 20px;
 }
@@ -87,6 +91,7 @@ div#content {
 .category-selection h2 {
     color: var(--branco);
     margin-bottom: 10px;
+    font-size: 1.4rem;
 }
 
 #listaCategoriasProdutos {
@@ -172,7 +177,7 @@ ul#listaCategoriasProdutos li:hover {
 
     #colecaoE-books p {
         line-height: 20px;
-        text-align: center;
+        text-align: center;        
     }
 
     #colecaoE-books h3 {
@@ -190,4 +195,42 @@ ul#listaCategoriasProdutos li:hover {
         flex-direction: column;
         gap: .5rem;
     }
+}
+
+/* Tablet */
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+    
+    .box .inner img {
+        width: 160px;
+    }
+
+    #colecaoE-books .colecaoImgs {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content .colecaoImgs .colecaoImg {
+        width: 50px;
+        height: 130px;
+    }
+
+    #content .category-selection h2 {
+        font-size: 1.4rem;
+    }
+
+    #colecaoE-books p {
+        font-size: 1.2rem;
+        margin-top: .5rem;
+    }
+
+    #content #colecaoE-books h3 {
+        font-size: 2.5rem;
+    }
+
+    #colecaoE-books .colecaoImgs > * {
+        flex-basis: calc(33.33% - 10px);
+        margin: 5px;
+      }
 }

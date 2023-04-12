@@ -998,9 +998,25 @@ dl {
 
 /* Laptop */
 @media screen and (min-width: 1100px) and (max-width: 1500px) {
-	div#content.indexContainer {
-		margin-left: 40vh;
+	
+	body.is-preload {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
 	}
+	div#content {
+		width: 100vw;
+		left: 260px;
+		position: relative;
+	}
+
+	div#content .inner {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;		
+	}
+	
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -1268,7 +1284,7 @@ dl {
 	/* Content */
 	div#content.indexContainer .inner {		
 		padding: 0;
-		margin: 200px 0 0 2rem;	
+		margin: 0 0 0 2rem;	
 	}
 
 	.row {
@@ -2457,10 +2473,20 @@ ol li {
 
 /* Content */
 
+body.is-preload {
+	width: 100vw;
+	margin: 0;
+}
+
+div#content div.inner {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 #content.indexContainer {
-	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 45vh;
-	box-shadow: none;
+	width: 100vw;
+		
 }
 
 #content {
@@ -2654,7 +2680,7 @@ ol li {
 	/* Content */
 
 	#content {		
-		margin: 1rem 50vh;
+		margin: 1rem 15vh;
 	}
 
 	#content>.inner {
@@ -2683,7 +2709,7 @@ ol li {
 /* Wide */
 
 @media screen and (min-width: 1201px) {
-
+	
 	/* Basic */
 
 	body {
@@ -2696,16 +2722,7 @@ ol li {
 	select {
 		font-size: 12pt;
 	}
-
-
-
-
-	/* BOX */
-	/* .box.post h2 {
-		font-size: 3.25em;
-		line-height: 1.25em;
-	} */
-
+	
 	.box.post header {
 		padding: 0;
 		margin: 0;
@@ -3102,6 +3119,7 @@ ol li {
 	/* Content */
 
 	#content {
+		
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
