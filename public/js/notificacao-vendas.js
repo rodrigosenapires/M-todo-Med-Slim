@@ -41,7 +41,7 @@ function exibirNotificacao() {
         vendas = ultimaVenda + 3; // Valor ajustado
     }
 
-    notificacao.textContent = `${vendas} já compraram esse curso hoje!`;
+    notificacao.textContent = `${vendas} pessoas já compraram esse curso hoje!`;
     notificacao.style.opacity = '1';
 
     ultimaVenda = vendas;
