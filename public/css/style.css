@@ -30,6 +30,13 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+.ativo {
+    border: 1px solid #1C661B;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    transition: 0.2s;
+}
+
 div#content.contentAgradecimentoEbook {
     left: 0;
 }
@@ -39,7 +46,7 @@ div#content.contentAgradecimentoEbook {
     margin-left: 260px;
 }
 
-#content.contentAgradecimentoEbook h1 {
+#content.contentAgradecimentoEbook h1, #secaoAgradecimentoContato h1 {
     color: var(--verde);
 }
 
