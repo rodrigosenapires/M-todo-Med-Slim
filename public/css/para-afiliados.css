@@ -607,10 +607,10 @@ div.tempo {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    padding: 2rem;
+    padding: 1rem;
     background-color: var(--laranja);
     color: #FFF;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

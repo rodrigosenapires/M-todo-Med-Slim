@@ -50,7 +50,7 @@ function exibirNotificacao() {
 
     setTimeout(() => {
         notificacao.style.opacity = '0';
-    }, 10000);
+    }, 3000);
 }
 
 setInterval(exibirNotificacao, 2.5 * 60 * 1000);
