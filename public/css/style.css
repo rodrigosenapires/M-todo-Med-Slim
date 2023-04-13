@@ -30,6 +30,20 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+div#content.contentAgradecimentoEbook {
+    left: 0;
+}
+
+#cabecalho.cabecalhoAgradecimentoEbook {
+    width: 125%;
+    margin-left: 260px;
+}
+
+#rodape.rodapeAgradecimentoEbook {
+    width: 70%;
+    margin-left: 260px;
+}
+
 #regrasProduto h1, #contraIndicacoes h1 {
     color: var(--branco);
 }
