@@ -13,6 +13,10 @@ body {
     padding: 0;
 }
 
+#sidebar.sidebarAgradecimentoEbook section:before {
+    display: none;
+}
+
 div#content {
     background-color: var(--cinza-claro);
     margin-left: 10rem;
