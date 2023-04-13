@@ -39,6 +39,10 @@ div#content.contentAgradecimentoEbook {
     margin-left: 260px;
 }
 
+#content.contentAgradecimentoEbook h1 {
+    color: var(--verde);
+}
+
 #sidebar.sidebarAgradecimentoEbook nav:after {
     display: none;
 }
