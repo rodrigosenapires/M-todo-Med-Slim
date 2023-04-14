@@ -64,7 +64,7 @@ div#content.contentAgradecimentoEbook {
 }
 
 footer#rodape.post.post-excerpt.box.footerEbooks {
-    margin-top: 6rem;
+    margin-top: 20rem;
 }
 
 #rodape.box.post.post-excerpt.displayMS {
@@ -357,7 +357,13 @@ h1 {
     margin: 2rem 0;
 }
 
+:root {
+    --laranja: #FFA500;
+}
 
+:root {
+    --laranja: #FF914D;
+}
 
 .vejaMais {
     display: flex;
@@ -389,33 +395,71 @@ h1 {
 
 .carrossel {
     display: flex;
+    align-items: center;
     width: 80%;
     max-height: 80%;
     overflow: hidden;
     background-color: #FFF;
     border-radius: 10px;
-    padding: 3rem;
+    padding: 1rem;
+    position: relative;
+    background-color: var(--cinza-claro);
 }
 
-.carrossel.carrosselSobremesasDetox {
-    padding: 6rem;
+.carrossel-items-wrapper {
+    flex-grow: 1;
+    display: flex;
+    padding: 1rem 0;
+    overflow: hidden;
+    margin-top: 10rem;
 }
 
-.carrossel img {
+.carrossel-item {
+    display: none;
     width: 100%;
-    object-fit: cover;
+    text-align: center;
+}
+
+.carrossel-item img {
+    width: auto;
+    height: 80%;
+    
+}
+
+.nav-arrow {
+    color: #FFF;
+    font-size: 2rem;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+    background-color: var(--laranja);    
+}
+
+.arrow-left {
+    margin-right: 1rem;
+}
+
+.arrow-right {
+    margin-left: 1rem;
 }
 
 .fechar-carrossel {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: transparent;
+    background-color: var(--laranja);
     border: none;
     color: #FFF;
     font-size: 2rem;
     cursor: pointer;
+    padding: 1rem 1.3rem;
 }
+
+
+
+
+
 
 #arvore a p {
     margin: 0 auto;
@@ -1295,6 +1339,16 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+    
+    .carrossel-items-wrapper {
+        margin-top: 15rem;
+    }
+
+    .carrossel-item img {
+        width: auto;
+        height: 70%;        
+    }
+    
     div#content.indexContainer.metodoEmagrecimento, 
     div#content.indexContainer.contentGuiaExerciciosCasa, div#content.indexContainer.contentParaAfiliados {
         left: 0;
@@ -1649,6 +1703,15 @@ input {
 
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
+
+    .carrossel-items-wrapper {
+        margin-top: 15rem;
+    }
+
+    .carrossel-item img {
+        width: auto;
+        height: 70%;        
+    }
 
     div#content {
         left: 240px;
@@ -2092,6 +2155,39 @@ input {
 /* Mobile */
 @media screen and (max-width: 736px) {
 
+    .vejaMais {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    .carrossel {
+        width: 100%;        
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .carrossel-items-wrapper {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+    
+
+    .carrossel-item img {
+        width: 100%;
+        height: auto;
+        max-height: unset;
+        object-fit: contain;
+    }    
+
+    .nav-arrow {
+        font-size: 1.5rem;
+        padding: 0.7rem 1rem;
+    }
+
+    .fechar-carrossel {
+        font-size: 1.5rem;
+        padding: .5rem .75rem;
+    }
     
 
     div#content .inner{

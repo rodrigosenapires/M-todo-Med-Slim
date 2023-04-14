@@ -2489,9 +2489,11 @@ body.is-preload {
 
 div#content div.inner {
 	margin: 0;
-	padding: 0;
+	padding: .5rem;
 	width: 100%;
 }
+
+
 
 #content.indexContainer {
 	width: 100vw;
