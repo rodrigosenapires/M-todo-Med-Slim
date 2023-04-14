@@ -101,7 +101,7 @@ div#content {
 }
 
 div#content.arvoreLinks {
-    left: 0;
+    left: 450px;
 }
 
 .audio-control-container {
@@ -2166,6 +2166,10 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+
+    div#content.arvoreLinks {
+        left: 0;
+    }
 
     .vejaMais {
         width: 200px;
