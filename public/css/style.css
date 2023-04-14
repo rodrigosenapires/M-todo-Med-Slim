@@ -30,6 +30,18 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+#sidebar.sidebarContainer.sidebar30Receitas nav:after {
+    display: none;
+}
+
+#sidebar.sidebarContainer.sidebar30Receitas img.imgPropagagandaMenu30Receitas {
+    margin-left: 1.75rem;
+}
+
+#sidebar.sidebarContainer.sidebar30Receitas {
+    width: 16rem;
+}
+
 .ativo {
     border: 1px solid #1C661B;
     border-bottom: none;
@@ -85,7 +97,7 @@ footer#rodape.post.post-excerpt.box.footerEbooks {
 }
 
 div#content {
-    left: 280px;
+    left: 430px;
 }
 
 div#content.arvoreLinks {

@@ -2489,14 +2489,12 @@ body.is-preload {
 
 div#content div.inner {
 	margin: 0;
-	padding: .5rem;
+	padding: 0 .5rem .5rem .5rem;
 	width: 100%;
 }
 
-
-
 #content.indexContainer {
-	width: 100vw;
+	max-width: 1000px;
 		
 }
 
@@ -2695,7 +2693,7 @@ div#content div.inner {
 	}
 
 	#content>.inner {
-		max-width: 1038px;
+		max-width: 1000px;
 	}
 
 	/* Copyright */
