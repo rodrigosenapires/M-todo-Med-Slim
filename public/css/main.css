@@ -2495,7 +2495,7 @@ div#content div.inner {
 
 #content.indexContainer {
 	max-width: 1000px;
-		
+	left: 290px;
 }
 
 #content {
