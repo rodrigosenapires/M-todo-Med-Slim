@@ -87,10 +87,13 @@ footer#rodape.post.post-excerpt.box.footerEbooks {
     display: none;
 }
 
-#content.metodoEmagrecimento, 
-#content.contentParaAfiliados {
+#content.metodoEmagrecimento {
     left: 410px;
 } 
+
+div#content.contentParaAfiliados {
+    left: 430px;
+}
 
 div#content.contentGuiaExerciciosCasa {
     left: 420px;
