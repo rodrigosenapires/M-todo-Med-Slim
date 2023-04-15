@@ -50,12 +50,12 @@ div#content {
 }
 
 div#content.contentAgradecimentoEbook {
-    left: 0;
+    left: 420px;
 }
 
 #cabecalho.cabecalhoAgradecimentoEbook {
-    width: 125%;
-    margin-left: 260px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 #content.contentAgradecimentoEbook h1, #secaoAgradecimentoContato h1 {
@@ -67,8 +67,8 @@ div#content.contentAgradecimentoEbook {
 }
 
 #rodape.rodapeAgradecimentoEbook {
-    width: 70%;
-    margin-left: 260px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 #regrasProduto h1, #contraIndicacoes h1 {
