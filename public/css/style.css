@@ -2174,6 +2174,11 @@ input {
 /* Mobile */
 @media screen and (max-width: 736px) {
 
+    #content.indexContainer {
+        max-width: 1000px;
+        left: 0;
+    }
+    
     div#content.arvoreLinks {
         left: 0;
     }
