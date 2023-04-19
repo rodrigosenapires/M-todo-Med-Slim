@@ -1274,7 +1274,7 @@ dl {
 	/* Content */
 	div#content.indexContainer {		
 		padding: 0;
-		margin-left: 32vh;
+		margin-left: 0;
 		height: 100vh;
 		
 	}	

@@ -30,16 +30,16 @@ div#content {
     background-color: var(--cinza-claro);
 }
 
+#body30Receitas #content.indexContainer {
+        left: 390px;
+}
+
 #sidebar.sidebarContainer.sidebar30Receitas nav:after {
     display: none;
 }
 
-#sidebar.sidebarContainer.sidebar30Receitas img.imgPropagagandaMenu30Receitas {
-    margin-left: 1.75rem;
-}
-
 #sidebar.sidebarContainer.sidebar30Receitas {
-    width: 16rem;
+    width: 12rem;
 }
 
 .ativo {
@@ -2173,6 +2173,10 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+
+    #body30Receitas div#content.indexContainer {
+        left: 0;
+}
 
     #content.indexContainer {
         max-width: 1000px;
