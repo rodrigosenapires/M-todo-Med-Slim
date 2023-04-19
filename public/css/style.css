@@ -2173,7 +2173,7 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
-
+   
     #body30Receitas div#content.indexContainer {
         left: 0;
 }
