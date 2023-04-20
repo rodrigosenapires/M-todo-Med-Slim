@@ -1359,6 +1359,20 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
     
+    
+    div#cabecalho {
+        margin-bottom: 0;
+    }
+    
+    div#content.indexContainer {
+        left: 120px;
+    }
+    
+    div#content.arvoreLinks {
+        left: 10px;
+        top: -5px;
+    }
+        
     .carrossel-items-wrapper {
         margin-top: 15rem;
     }
@@ -1405,7 +1419,7 @@ input {
     }
 
     #content #arvoreLinksWrapper {
-        margin-right: 12rem;
+        margin-right: 0;
     }
 
     .botaoAcao {
@@ -1528,7 +1542,7 @@ input {
 
     .box.post {
         margin-bottom: 0;
-        padding-bottom: 2rem;
+        padding-bottom: 0;
     }
 
     #e-bookGratis div,
