@@ -1371,6 +1371,7 @@ input {
         text-decoration: none;
         border: 1px solid var(--branco);
         border-radius: 8px;
+        margin-bottom: 1rem;
     }
 
     #arvore a p {
