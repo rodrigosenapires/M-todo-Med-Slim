@@ -1359,6 +1359,15 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
     
+    #arvore a {
+        text-decoration: none;
+        border: 1px solid var(--branco);
+        border-radius: 8px;
+    }
+
+    #arvore a p {
+        color: var(--branco);        
+    }
     
     div#cabecalho {
         margin-bottom: 0;
