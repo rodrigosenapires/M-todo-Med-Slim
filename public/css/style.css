@@ -1354,11 +1354,19 @@ input {
 
 }
 
-@media screen and (min-width: 737px) {}
-
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
     
+    
+    div#content.indexContainer div.inner {
+        margin: 0 auto;
+        left: -10px;
+    }
+
+    div#content.indexContainer.arvoreLinks.bodyIndex #arvoreLinksWrapper {
+        margin: 0 auto;
+    }
+
     #arvore a {
         text-decoration: none;
         border: 1px solid var(--branco);
